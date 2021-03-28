@@ -35,10 +35,12 @@ const Button = (props) => {
   return (
     <button
       className={`button button--${props.size || 'default'} ${
-        props.inverse && 'button--inverse'
-      } ${props.danger && 'button--danger'} ${props.enter && 'button--enter'} ${
-        props.out && 'button--out'
-      } ${props.big && 'button--big'} ${props.stat && 'button--stat'}`}
+        (props.inverse && 'button--inverse') || ''
+      } ${(props.danger && 'button--danger') || ''} ${
+        (props.enter && 'button--enter') || ''
+      } ${(props.out && 'button--out') || ''} ${
+        (props.big && 'button--big') || ''
+      } ${(props.stat && 'button--stat') || ''}`}
       type={props.type}
       onClick={props.onClick}
       disabled={props.disabled}

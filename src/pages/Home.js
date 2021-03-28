@@ -16,7 +16,8 @@ const Home = () => {
         {/* <div style={{ marginTop: '4rem' }}></div> */}
 
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=Ach8lgF6-AY&ab_channel=KOANSound"
+          // url="https://www.youtube.com/watch?v=Ach8lgF6-AY&ab_channel=KOANSound"
+          url="https://www.youtube.com/watch?v=NVb5GV6lntU&ab_channel=PsychedelicTrips"
           className="react-player"
           playing={true}
           muted={isMuted}
