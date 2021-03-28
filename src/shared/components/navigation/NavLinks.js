@@ -11,6 +11,11 @@ export const NavLinks = () => {
           Projects
         </NavLink>
       </li>
+      <li className="nav_actions">
+        <NavLink to="/about" exact>
+          About
+        </NavLink>
+      </li>
     </ul>
   );
 };

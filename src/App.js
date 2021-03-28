@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainNavigation from './shared/components/navigation/MainNavigation';
 
 import Home from './pages/Home';
+import About from './pages/About';
 import Projects from './pages/Projects';
 
 // const Auth = React.lazy(() => import('./user/pages/Auth'));
@@ -24,6 +25,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/about">
+            <About />
           </Route>
           <Route exact path="/projects">
             <Projects />
