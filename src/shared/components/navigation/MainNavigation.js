@@ -29,21 +29,18 @@ export const MainNavigation = (props) => {
       </SideDrawer>
 
       <MainHeader>
-        <button
-          className="main-navigation__menu-btn"
-          onClick={openDrawerHandler}
-        >
-          <span />
-          <span />
-          <span />
-        </button>
-        <div className="main-navigation__title-group">
+        <div className="main-navigation_menu">
+          <button
+            className="main-navigation__menu-btn"
+            onClick={openDrawerHandler}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+
           <h1 className="main-navigation__title">
             <Link to="/">Home</Link>
-          </h1>
-          <h1 className="main-navigation__title">
-            {/* <Link to="/">Projects</Link> */}
-            {/* <Link to="/about">About community storages</Link> */}
           </h1>
         </div>
         <nav className="main-navigation__header-nav">

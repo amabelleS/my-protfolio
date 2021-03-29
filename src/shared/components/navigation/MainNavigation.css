@@ -1,46 +1,40 @@
+.main-navigation_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .main-navigation__menu-btn {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   background: transparent;
   border: none;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-right: 2rem;
   cursor: pointer;
+  margin: 0 0 0 1rem;
 }
 
 .main-navigation__menu-btn span {
   display: block;
-  width: 3rem;
+  width: 1.8rem;
   height: 2.5px;
-  background: rgb(1, 255, 255);
-  margin: 0 1rem;
-}
-
-.main-navigation__title-group {
-  width: 11rem;
-  display: flex;
-  justify-content: space-between;
+  background: #ef476f;
 }
 
 .main-navigation__title {
-  color: #ff8fcf;
   font-size: 1.3rem;
 }
 
 .main-navigation__title a {
+  font-family: cursive;
   text-decoration: none;
-  color: #ff8fcf;
+  color: #ef476f;
+  margin: 0 0 0 1rem;
 }
 
 .main-navigation__title a:hover {
-  background: rgb(1, 255, 255);
-  color: #9d72ff;
-  border: 1.5px solid rgb(157, 114, 255);
-  box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.26);
-  border-radius: 8px;
-  padding: 0 0.1rem;
+  font-style: oblique;
 }
 
 .main-navigation__header-nav {

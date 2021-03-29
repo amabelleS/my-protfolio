@@ -30,7 +30,7 @@ const Home = () => {
       <div className="content-wrapper">
         <div className="first">
           <h1>Hi! I am Amabelle</h1>
-          <h2>isMuted: {isMuted ? 'true' : 'false'}</h2>
+          <h2>A front End Web Developer</h2>
           <Button
             // style={{ background: 'white' }}
             onClick={() => setIsMuted(!isMuted)}

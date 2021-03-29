@@ -38,32 +38,6 @@
   border-color: #01ffff;
 }
 
-.button--danger {
-  background: #fe1c80;
-  border-color: #fb33db;
-}
-
-.button--enter {
-  background: #43d436;
-  border-color: #7fff00;
-}
-
-.button--out {
-  background: #28204f;
-  border-color: #28204f;
-}
-
-.button--stat {
-  background: #b82cb1;
-  border-color: #fb33db;
-}
-
-.button--danger:hover,
-.button--danger:active {
-  background: #01ffff;
-  border-color: #9d72ff;
-}
-
 .button:disabled,
 .button:hover:disabled,
 .button:active:disabled {
