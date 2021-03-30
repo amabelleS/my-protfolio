@@ -39,9 +39,9 @@ export const MainNavigation = (props) => {
             <span />
           </button>
 
-          <h1 className="main-navigation__title">
-            <Link to="/">Home</Link>
-          </h1>
+          <Link className="main-navigation__title" to="/">
+            Home
+          </Link>
         </div>
         <nav className="main-navigation__header-nav">
           <NavLinks />

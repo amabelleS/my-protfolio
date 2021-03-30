@@ -1,0 +1,10 @@
+.about-container {
+  background: #ef476f;
+  margin-top: 4rem;
+}
+
+.about-container p,
+.about-container h1,
+.about-container h2 {
+  padding: 1rem;
+}

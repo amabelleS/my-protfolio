@@ -26,15 +26,17 @@
   font-size: 1.3rem;
 }
 
-.main-navigation__title a {
+a.main-navigation__title {
   font-family: cursive;
   text-decoration: none;
-  color: #ef476f;
+  color: rgba(239, 71, 111, 0.9);
   margin: 0 0 0 1rem;
 }
 
-.main-navigation__title a:hover {
+a.main-navigation__title:hover {
+  color: #ef476f;
   font-style: oblique;
+  text-shadow: 1px 1px 1px gray;
 }
 
 .main-navigation__header-nav {

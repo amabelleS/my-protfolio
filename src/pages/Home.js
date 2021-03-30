@@ -50,6 +50,7 @@ const Home = () => {
         <div className="second">
           <h3>on the search for my next chanlege 🤑</h3>
           <img
+            alt="my avater"
             src="https://avatars.githubusercontent.com/u/45571546?v=4"
             style={{
               clipPath: 'circle(50% at 50% 50%)',

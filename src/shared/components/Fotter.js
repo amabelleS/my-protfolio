@@ -11,37 +11,32 @@ const Fotter = () => {
 
   return (
     <div className="fotter">
-      <span>
-        <a href={url} className="linkedin">
-          {' '}
-          <SocialIcon
-            url="https://linkedin.com/in/jaketrent"
-            bgColor="#ef476f"
-            fgColor="transparent"
-            label="My linkedIn"
-            style={{ height: 15, width: 15 }}
-          />
-        </a>
-      </span>
-      <a className="mail" href={'mailto:' + myEmail}>
-        {' '}
-        <SocialIcon
-          network="email"
-          bgColor="#ef476f"
-          fgColor="transparent"
-          label="My email"
-          style={{ height: '1em', width: '1em' }}
-        />
-      </a>
-      <a className="gitHub" href={gitHubLink}>
-        <SocialIcon
-          url="https://github.com/jaketrent"
-          bgColor="#ef476f"
-          fgColor="transparent"
-          label="My github"
-          style={{ height: 15, width: 15 }}
-        />
-      </a>
+      <SocialIcon
+        url={url}
+        network="linkedin"
+        bgColor="#ef476f"
+        fgColor="transparent"
+        label="My linkedIn"
+        style={{ height: '2em', width: '2em' }}
+      />
+      <SocialIcon
+        className="mail"
+        url={'mailto:' + myEmail}
+        network="email"
+        bgColor="#ef476f"
+        fgColor="transparent"
+        label="My email"
+        style={{ height: '2em', width: '2em' }}
+      />
+      <SocialIcon
+        className="gitHub"
+        url={gitHubLink}
+        network="github"
+        bgColor="#ef476f"
+        fgColor="transparent"
+        label="My github"
+        style={{ height: '2em', width: '2em' }}
+      />
     </div>
   );
 };

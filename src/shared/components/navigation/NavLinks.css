@@ -19,6 +19,7 @@
 .nav-links a {
   font-family: cursive;
   text-decoration: none;
+  /* color: rgb(239, 71, 111); */
   color: #ef476f;
   padding: 0.5rem;
 }
@@ -27,6 +28,7 @@
 .nav-links a:active,
 .nav-links a.active {
   font-style: oblique;
+  text-shadow: 1px 1px 1px gray;
 }
 
 @media (min-width: 768px) {
