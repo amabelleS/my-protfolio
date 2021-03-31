@@ -3,9 +3,10 @@
   font-family: arial;
   font-size: 1.1rem;
   padding: 0.5rem 1.5rem;
-  border: 1px solid #fb33db;
+  border: 2px solid #01ffff;
   border-radius: 4px;
-  background: #fe53bb;
+  /* background: #fe53bb; */
+  background: transparent;
   color: #01ffff;
   cursor: pointer;
   margin-right: 1rem;
@@ -20,23 +21,24 @@
 
 .button:hover,
 .button:active {
-  background: #01ffff;
+  /* background: #01ffff; */
   color: #9d72ff;
   font-weight: bold;
   border-color: #9d72ff;
 }
 
 .button--inverse {
+  border-color: #fe53bb;
   background: transparent;
   color: #fe53bb;
 }
 
-.button--inverse:hover,
+/* .button--inverse:hover,
 .button--inverse:active {
   color: #01ffff;
   background: transparent;
   border-color: #01ffff;
-}
+} */
 
 .button:disabled,
 .button:hover:disabled,

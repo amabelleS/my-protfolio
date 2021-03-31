@@ -17,7 +17,7 @@ const Fotter = () => {
         bgColor="#ef476f"
         fgColor="transparent"
         label="My linkedIn"
-        style={{ height: '2em', width: '2em' }}
+        style={{ height: '1em', width: '1em' }}
       />
       <SocialIcon
         className="mail"
@@ -26,7 +26,7 @@ const Fotter = () => {
         bgColor="#ef476f"
         fgColor="transparent"
         label="My email"
-        style={{ height: '2em', width: '2em' }}
+        style={{ height: '1em', width: '1em' }}
       />
       <SocialIcon
         className="gitHub"
@@ -35,7 +35,7 @@ const Fotter = () => {
         bgColor="#ef476f"
         fgColor="transparent"
         label="My github"
-        style={{ height: '2em', width: '2em' }}
+        style={{ height: '1em', width: '1em' }}
       />
     </div>
   );

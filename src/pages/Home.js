@@ -28,26 +28,48 @@ const Home = () => {
         {/* </div> */}
       </div>
       <div className="content-wrapper">
-        <div className="first">
-          <h1>Hi! I am Amabelle</h1>
-          <h2>A front End Web Developer</h2>
-          <Button
-            // style={{ background: 'white' }}
-            onClick={() => setIsMuted(!isMuted)}
-            inverse
-          >
-            {isMuted ? 'Unmute' : 'Mute'}
-          </Button>
+        <div className="home_about">
+          <h1>Hello, Word. I’m Amabelle.</h1>
+          {/* <h2>A Web Developer</h2>
+          <h2>A user experience designer</h2>
+          <h2>An ideas actualizer</h2> */}
+          <div className="home_btn">
+            {/* <Button to="/about">More about me</Button> */}
+            <Button
+              // style={{ background: 'white' }}
+              onClick={() => setIsMuted(!isMuted)}
+              inverse
+              className="home_mute"
+            >
+              {isMuted ? 'Unmute' : 'Mute'}
+            </Button>
+          </div>
+        </div>
+
+        <div className="home_about">
+          <h2 className="animate__animated animate__backInLeft">
+            A Web Developer
+          </h2>
+          <h2 className="animate__animated animate__backInRight animate__backOutRight">
+            A user experience designer
+          </h2>
+          <h2 className="animate__animated animate__backInLeft animate__backOutLeft">
+            An ideas actualizer
+          </h2>
+          <div className="home_btn">
+            <Button to="/about">More about me</Button>
+          </div>
         </div>
 
         {/* <div className="second">Hoo</div> */}
-        <div className="second">
-          <h3>A front End Web Developer</h3>
+        <div className="home_project">
+          <h3>My projects</h3>
+          <Button to="/projets">My projects</Button>
         </div>
         <div className="second">
           <h3>Spesielized in ui/ux </h3>
         </div>
-        <div className="second">
+        <div className="home_fotter">
           <h3>on the search for my next chanlege 🤑</h3>
           <img
             alt="my avater"
