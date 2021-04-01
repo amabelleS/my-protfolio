@@ -60,9 +60,7 @@ const Home = () => {
 
         <div className="home_about">
           <h2 className="">A Web Developer</h2>
-          <bounceInLeftDiv>
-            <h2 className="">A user experience designer</h2>
-          </bounceInLeftDiv>
+          <h2 className="">A user experience designer</h2>
           <h2 className="">An ideas actualizer</h2>
           <div className="home_btn">
             <Button to="/about">More about me</Button>
