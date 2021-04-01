@@ -4,7 +4,16 @@ import ReactPlayer from 'react-player';
 
 import Button from '../shared/components/FormElements/Button';
 
+// import styled, { keyframes } from 'styled-components';
+// import { bounceInLeft } from 'react-animations';
+// import './styled.css';
+
 import './Home.css';
+
+// const bounceInLeftAnimation = keyframes`${bounceInLeft}`;
+// const bounceInLeftDiv = styled.div`
+//   animation: 1s ${bounceInLeftAnimation};
+// `;
 
 const Home = () => {
   const [isMuted, setIsMuted] = useState(true);
@@ -28,8 +37,11 @@ const Home = () => {
         {/* </div> */}
       </div>
       <div className="content-wrapper">
-        <div className="home_about">
-          <h1>Hello, Word. I’m Amabelle.</h1>
+        {/* <div className="first">
+          <h3>Hover over me </h3>
+        </div> */}
+        <div className="home_hello">
+          <h1 className="enter-down">Hello, Word. I’m Amabelle.</h1>
           {/* <h2>A Web Developer</h2>
           <h2>A user experience designer</h2>
           <h2>An ideas actualizer</h2> */}
@@ -47,15 +59,11 @@ const Home = () => {
         </div>
 
         <div className="home_about">
-          <h2 className="animate__animated animate__backInLeft">
-            A Web Developer
-          </h2>
-          <h2 className="animate__animated animate__backInRight animate__backOutRight">
-            A user experience designer
-          </h2>
-          <h2 className="animate__animated animate__backInLeft animate__backOutLeft">
-            An ideas actualizer
-          </h2>
+          <h2 className="">A Web Developer</h2>
+          <bounceInLeftDiv>
+            <h2 className="">A user experience designer</h2>
+          </bounceInLeftDiv>
+          <h2 className="">An ideas actualizer</h2>
           <div className="home_btn">
             <Button to="/about">More about me</Button>
           </div>

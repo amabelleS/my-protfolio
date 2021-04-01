@@ -25,9 +25,9 @@
 }
 
 .nav-links a:hover,
-.nav-links a:active,
-.nav-links a.active {
+.nav-links a:active {
   font-style: oblique;
+  /* transform: skewX(-20deg) scale(1.2); */
   text-shadow: 1px 1px 1px gray;
 }
 

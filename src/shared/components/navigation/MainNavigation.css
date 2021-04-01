@@ -35,7 +35,9 @@ a.main-navigation__title {
 
 a.main-navigation__title:hover {
   color: #ef476f;
-  font-style: oblique;
+  /* font-style: oblique; */
+  transform: skewX(-20deg) scale(1.1);
+  /* transform: skewX(20deg) skewY(20deg); */
   text-shadow: 1px 1px 1px gray;
 }
 
