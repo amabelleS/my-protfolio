@@ -21,6 +21,7 @@
 .fotter a:hover,
 .fotter a:active {
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  /* animation: wiggle 400ms 3s 8 ease-out none; */
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
@@ -54,3 +55,15 @@
   width: 0.2em;
 }
  */
+
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
+  }
+}

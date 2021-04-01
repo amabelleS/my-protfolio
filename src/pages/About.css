@@ -1,10 +1,43 @@
 .about-container {
   background: #ef476f;
+  color: aliceblue;
   margin-top: 4rem;
+
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
+
+/* .player-background {
+ 
+
+  position: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+ */
 
 .about-container p,
 .about-container h1,
 .about-container h2 {
   padding: 1rem;
+}
+
+.about-first {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-second {
+  background: rgba(black, 0.66);
+  color: white;
+  position: relative;
 }

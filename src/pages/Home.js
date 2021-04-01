@@ -37,14 +37,12 @@ const Home = () => {
         {/* </div> */}
       </div>
       <div className="content-wrapper">
-        {/* <div className="first">
+        {/* <div className="content-wrapper">
           <h3>Hover over me </h3>
         </div> */}
         <div className="home_hello">
           <h1 className="enter-down">Hello, Word. I’m Amabelle.</h1>
-          {/* <h2>A Web Developer</h2>
-          <h2>A user experience designer</h2>
-          <h2>An ideas actualizer</h2> */}
+          <h2>Hover Over</h2>
           <div className="home_btn">
             {/* <Button to="/about">More about me</Button> */}
             <Button
@@ -59,9 +57,9 @@ const Home = () => {
         </div>
 
         <div className="home_about">
-          <h2 className="">A Web Developer</h2>
-          <h2 className="">A user experience designer</h2>
-          <h2 className="">An ideas actualizer</h2>
+          <h2 className="slide-in-left">A Web Developer</h2>
+          <h2 className="slide-in-right">A user experience designer</h2>
+          <h2 className="slide-in-left">An ideas actualizer</h2>
           <div className="home_btn">
             <Button to="/about">More about me</Button>
           </div>
