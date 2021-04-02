@@ -23,7 +23,7 @@ const TEXTS_2 = [
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  const [isMuted, setIsMuted] = useState(true);
+  //   const [isMuted, setIsMuted] = useState(true);
 
   React.useEffect(() => {
     const intervalId = setInterval(
@@ -41,7 +41,7 @@ const About = () => {
           url="https://www.youtube.com/watch?v=_hHwz1UWJmI&ab_channel=%D0%9A%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%B0%D1%8F%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%B4%D0%BB%D1%8F%D0%94%D1%83%D1%88%D0%B8"
           className="react-player"
           playing={true}
-          muted={isMuted}
+          muted={true}
           width="100%"
           height="100%"
           controls={true}
@@ -106,42 +106,6 @@ const About = () => {
           ></img>
         </div>
       </div>
-
-      {/* <div className="content_wrapper">
-        <div className="about_first">
-          <h1>Hi, I'm Amabelle.</h1>
-          <h1>
-            <TextTransition
-              text={TEXTS[index % TEXTS.length]}
-              springConfig={presets.molasses}
-            />
-          </h1>
-          <h2>I'm a web developer.</h2>
-
-          <p className="about-main">
-            Background as a cognitive psychologist, so I’m all about the
-            user-experience. With passion to build and design web applications
-            that will provide us, as individuals and as the community online
-            spaces that will help us manage ourselves, share knowledge, and
-            build together sustainable communities. So, I started to learn how
-            to code:) First with the help of the wonderful community SHECODES,
-            but mostly self-taut. About a half-year ago or more, I finished a
-            front-end development course, then took an internship, and continued
-            to educate myself with new technologies that I praioteriez (so much
-            to choose from){' '}
-          </p>
-        </div>
-        <div className="about_second">
-          <h1>
-            r-experience. With passion to build and design web applications that
-            will provide us, as individuals and as the community online spaces
-            that will help us manage ourselves, share knowledge, and build
-            together sustainable communities. So, I started to learn how to
-            code:) First with the...
-          </h1>
-        </div>
-      </div>
-   */}
     </React.Fragment>
   );
 };
