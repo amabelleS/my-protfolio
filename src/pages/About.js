@@ -8,6 +8,18 @@ import Button from '../shared/components/FormElements/Button';
 import './About.css';
 
 const TEXTS = ['Creativity', 'Inovation', 'Cooperation', 'Perfection'];
+const TEXTS_2 = [
+  'Positivity',
+  'Communication',
+  'Efficiency',
+  'Task Managment',
+  'Fast Learner',
+  'Self Tout',
+  'Passion About New Technologies',
+  'Team Player',
+  'Big Picture Fucus',
+  '..and Attention to Details',
+];
 
 const About = () => {
   const [index, setIndex] = useState(0);
@@ -69,12 +81,14 @@ const About = () => {
           </div> */}
         </div>
 
-        <div className="about_first"></div>
-
-        {/* <div className="second">Hoo</div> */}
         <div className="home_project">
-          <h3>My projects</h3>
-          <Button to="/projets">My projects</Button>
+          <h1>
+            <TextTransition
+              text={TEXTS_2[index % TEXTS_2.length]}
+              springConfig={presets.slow}
+              className="about-text"
+            />
+          </h1>
         </div>
         <div className="second">
           <h3>Spesielized in ui/ux </h3>
