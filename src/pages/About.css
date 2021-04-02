@@ -1,42 +1,4 @@
-.player-background {
-  /* object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: 'none'; */
-
-  position: fixed;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-}
-
-.player-background iframe {
-  pointer-events: 'none';
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100vw;
-  height: 100vh;
-  transform: translate(-50%, -50%);
-}
-
-@media (min-aspect-ratio: 16/9) {
-  .player-background iframe {
-    height: 56.25vw;
-  }
-}
-
-@media (max-aspect-ratio: 16 / 9) {
-  .player-background iframe {
-    width: 177.78vh;
-  }
-}
-
-.about-container {
+/* .about-container {
   background: #ef476f;
   color: aliceblue;
   margin-top: 4rem;
@@ -49,21 +11,11 @@
   left: 0;
 }
 
-/* .player-background {
- 
-
-  position: fixed;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-}
- */
-
 .about-container p,
 .about-container h1,
 .about-container h2 {
   padding: 1rem;
-}
+} */
 
 .about-first {
   margin-top: 4rem;
@@ -76,6 +28,15 @@
     rgba(0, 0, 0, 0) 100%
   );
   color: azure;
+}
+
+.about-text {
+  font-size: 3rem;
+}
+
+.about-main {
+  margin: 1rem 5rem;
+  font-size: 1.6rem;
 }
 
 .about-second {

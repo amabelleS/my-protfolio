@@ -63,6 +63,8 @@
   /* background: chartreuse; */
   color: white;
   width: 100vw;
+
+  font-family: 'Syne Mono', monospace;
 }
 
 .home_mute {
@@ -110,6 +112,7 @@
 .home_hello h2 {
   transition: opacity 1s ease-in, transform 500ms cubic-bezier(0.32, 0, 0.67, 0);
   animation: wiggle 400ms 3s 8 ease-out none;
+  /* font-family: 'Syne Mono', monospace; */
 }
 .home_hello:hover h2 {
   opacity: 0;
@@ -126,11 +129,9 @@
     rgba(0, 0, 0, 0) 100%
   );
 }
-
-.home_about h2 {
-  font-family: 'New Tegomin', serif;
-  font-family: 'Roboto Mono', monospace;
-}
+/* .home_about h2 {
+  font-family: 'Syne Mono', monospace;
+} */
 
 /* .home_about .slide-in-left {
   transform: scaleX(-150%);
