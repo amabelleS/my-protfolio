@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import MainHeader from './MainHeader';
 import NavLinks from './NavLinks';
@@ -39,9 +39,17 @@ export const MainNavigation = (props) => {
             <span />
           </button>
 
-          <Link className="main-navigation__title" to="/">
+          <NavLink
+            className="main-navigation__title"
+            to="/"
+            exact
+            activeStyle={{
+              textShadow: '1px 1px 1px gray',
+              transform: 'skewX(-20deg) scale(1.1)',
+            }}
+          >
             Home
-          </Link>
+          </NavLink>
         </div>
         <nav className="main-navigation__header-nav">
           <NavLinks />

@@ -33,12 +33,13 @@ a.main-navigation__title {
   margin: 0 0 0 1rem;
 }
 
-a.main-navigation__title:hover {
+a.main-navigation__title:hover,
+a.main-navigation__title:active {
   color: #ef476f;
   /* font-style: oblique; */
   transform: skewX(-20deg) scale(1.1);
-  /* transform: skewX(20deg) skewY(20deg); */
   text-shadow: 1px 1px 1px gray;
+  /* transform: skewX(20deg) skewY(20deg); */
 }
 
 .main-navigation__header-nav {
