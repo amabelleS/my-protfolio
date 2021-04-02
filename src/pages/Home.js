@@ -58,7 +58,21 @@ const Home = () => {
 
         {/* <div className="second">Hoo</div> */}
         <div className="home_project">
-          <h3>My projects</h3>
+          <div className="home_projects_main">
+            <h1>My projects</h1>
+            <div className="home_projects_main_list">
+              <article>
+                <a href="https://community-storages.web.app/">
+                  <h3>Community Storages</h3>
+                </a>
+              </article>
+              <article>
+                <a href="https://live-chat-24679.web.app/">
+                  <h3>Live Chat</h3>
+                </a>
+              </article>
+            </div>
+          </div>
           <Button to="/projets">My projects</Button>
         </div>
         <div className="second">

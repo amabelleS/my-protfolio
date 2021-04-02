@@ -47,8 +47,8 @@ const About = () => {
             />
           </h1>
           <p className="about-main">
-            Background as a cognitive psychologist, so I’m all about the
-            user-experience. With passion to build and design web applications
+            With a background as a cognitive psychologist, I’m all about the
+            user-experience. I'm passionate to build and design web applications
             that will provide us, as individuals and as the community online
             spaces that will help us manage ourselves, share knowledge, and
             build together sustainable communities. So, I started to learn how

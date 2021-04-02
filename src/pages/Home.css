@@ -151,6 +151,29 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.home_project h1 {
+  margin: 3rem;
+}
+
+.home_projects_main {
+  margin: 2.4rem;
+}
+
+.home_projects_main_list a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.home_projects_main {
+  display: flex;
+}
+
+.home_projects_main_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .second {
   height: 100vh;
   width: 100vw;
