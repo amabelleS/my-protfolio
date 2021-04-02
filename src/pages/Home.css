@@ -157,10 +157,13 @@
 
 .home_projects_main {
   margin: 2.4rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.home_projects_main {
-  display: flex;
+.home_projects_main_title {
+  /* margin-bottom: 64rem; */
+  /* justify-self: start; */
 }
 
 .home_projects_main_list {
@@ -173,10 +176,20 @@
   text-decoration: none;
 }
 
+.home_projects_main_list p {
+  color: palegreen;
+}
+
 .home_projects_main_list h3 {
   color: aqua;
   animation: wiggle 420ms 2s 11 ease-out none;
 }
+
+/* .home_projects_main_list:hover h3,
+.home_projects_main_list h3:active {
+  text-shadow: 1px 1px 1px gray;
+  transform: skewX(-20deg) scale(1.1);
+} */
 
 .second {
   height: 100vh;

@@ -59,17 +59,19 @@ const Home = () => {
         {/* <div className="second">Hoo</div> */}
         <div className="home_project">
           <div className="home_projects_main">
-            <h1>My projects</h1>
+            <h1 className="home_projects_main_title">My projects</h1>
             <div className="home_projects_main_list">
               <article>
                 <a href="https://community-storages.web.app/">
                   <h3>Community Storages</h3>
                 </a>
+                <p>Mern-app for the managment of storages</p>
               </article>
               <article>
                 <a href="https://live-chat-24679.web.app/">
                   <h3>Live Chat</h3>
                 </a>
+                <p>Vue.js-app, with Firebase and FireStore</p>
               </article>
             </div>
           </div>
