@@ -76,7 +76,7 @@ const Home = () => {
           <Button to="/projets">My projects</Button>
         </div>
         <div className="second">
-          <h3>Spesielized in ui/ux </h3>
+          <h3>My Blog</h3>
         </div>
         <div className="home_fotter">
           <h3>on the search for my next chanlege 🤑</h3>
