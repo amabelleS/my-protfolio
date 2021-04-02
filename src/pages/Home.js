@@ -21,9 +21,6 @@ const Home = () => {
   return (
     <React.Fragment>
       <div className="player-background">
-        {/* <div className="video-foreground"> */}
-        {/* <div style={{ marginTop: '4rem' }}></div> */}
-
         <ReactPlayer
           // url="https://www.youtube.com/watch?v=Ach8lgF6-AY&ab_channel=KOANSound"
           url="https://www.youtube.com/watch?v=NVb5GV6lntU&ab_channel=PsychedelicTrips"
@@ -34,19 +31,13 @@ const Home = () => {
           height="100%"
           controls={true}
         />
-        {/* </div> */}
       </div>
       <div className="content-wrapper">
-        {/* <div className="content-wrapper">
-          <h3>Hover over me </h3>
-        </div> */}
         <div className="home_hello">
-          <h1 className="enter-down">Hello, Word. I’m Amabelle.</h1>
+          <h1>Hello, Word. I’m Amabelle.</h1>
           <h2>Hover Over</h2>
           <div className="home_btn">
-            {/* <Button to="/about">More about me</Button> */}
             <Button
-              // style={{ background: 'white' }}
               onClick={() => setIsMuted(!isMuted)}
               inverse
               className="home_mute"

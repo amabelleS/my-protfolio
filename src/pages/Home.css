@@ -108,7 +108,8 @@
 }
 
 .home_hello h2 {
-  transition: opcity 1s ease-in, transform 500ms cubic-bezier(0.32, 0, 0.67, 0);
+  transition: opacity 1s ease-in, transform 500ms cubic-bezier(0.32, 0, 0.67, 0);
+  animation: wiggle 400ms 3s 8 ease-out none;
 }
 .home_hello:hover h2 {
   opacity: 0;
@@ -183,5 +184,17 @@
   }
   100% {
     transform: rotateY(360deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
   }
 }

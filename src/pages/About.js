@@ -1,15 +1,104 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import ReactPlayer from 'react-player';
+import TextTransition, { presets } from 'react-text-transition';
+
+import Button from '../shared/components/FormElements/Button';
 
 import './About.css';
 
+const TEXTS = ['Creativity', 'Inovation', 'Cooperation', 'Perfection'];
+
 const About = () => {
+  const [index, setIndex] = useState(0);
+  const [isMuted, setIsMuted] = useState(true);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      2000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <React.Fragment>
-      <div className="about-container">
-        {/* <div className="content-wrapper"> */}
+      <div className="player-background">
+        <ReactPlayer
+          // url="https://www.youtube.com/watch?v=Ach8lgF6-AY&ab_channel=KOANSound"
+          //   url="https://www.youtube.com/watch?v=LNeEqv2B_Is&ab_channel=PsychedelicTrips"
+          url="https://www.youtube.com/watch?v=_hHwz1UWJmI&ab_channel=%D0%9A%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%B0%D1%8F%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%B4%D0%BB%D1%8F%D0%94%D1%83%D1%88%D0%B8"
+          className="react-player"
+          playing={true}
+          muted={isMuted}
+          width="100%"
+          height="100%"
+          controls={true}
+        />
+      </div>
+
+      <div className="content-wrapper">
         <div className="about_first">
           <h1>Hi, I'm Amabelle.</h1>
+          <h1>
+            <TextTransition
+              text={TEXTS[index % TEXTS.length]}
+              springConfig={presets.molasses}
+            />
+          </h1>
+          {/* <div className="home_btn">
+            <Button
+              onClick={() => setIsMuted(!isMuted)}
+              inverse
+              className="home_mute"
+            >
+              {isMuted ? 'Unmute' : 'Mute'}
+            </Button>
+          </div> */}
+        </div>
+
+        <div className="home_about">
+          <h2 className="slide-in-left">A Web Developer</h2>
+          <h2 className="slide-in-right">A user experience designer</h2>
+          <h2 className="slide-in-left">An ideas actualizer</h2>
+          <div className="home_btn">
+            <Button to="/about">More about me</Button>
+          </div>
+        </div>
+
+        {/* <div className="second">Hoo</div> */}
+        <div className="home_project">
+          <h3>My projects</h3>
+          <Button to="/projets">My projects</Button>
+        </div>
+        <div className="second">
+          <h3>Spesielized in ui/ux </h3>
+        </div>
+        <div className="home_fotter">
+          <h3>on the search for my next chanlege 🤑</h3>
+          <img
+            alt="my avater"
+            src="https://avatars.githubusercontent.com/u/45571546?v=4"
+            style={{
+              clipPath: 'circle(50% at 50% 50%)',
+              maxWidth: '50vw',
+              maxHeight: '50vh',
+            }}
+          ></img>
+        </div>
+      </div>
+
+      {/* <div className="content_wrapper">
+        <div className="about_first">
+          <h1>Hi, I'm Amabelle.</h1>
+          <h1>
+            <TextTransition
+              text={TEXTS[index % TEXTS.length]}
+              springConfig={presets.molasses}
+            />
+          </h1>
           <h2>I'm a web developer.</h2>
+
           <p className="about-main">
             Background as a cognitive psychologist, so I’m all about the
             user-experience. With passion to build and design web applications
@@ -33,7 +122,7 @@ const About = () => {
           </h1>
         </div>
       </div>
-      {/* </div> */}
+   */}
     </React.Fragment>
   );
 };
