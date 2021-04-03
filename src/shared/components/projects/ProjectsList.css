@@ -36,5 +36,5 @@
   transform-origin: center;
   width: 12rem;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
