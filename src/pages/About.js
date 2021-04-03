@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import ReactPlayer from 'react-player';
 import TextTransition, { presets } from 'react-text-transition';
+import Button from '../shared/components/FormElements/Button';
 
 // import Button from '../shared/components/FormElements/Button';
 
@@ -26,6 +27,7 @@ const TEXTS_2 = [
 const About = () => {
   const [index, setIndex] = useState(0);
   //   const [isMuted, setIsMuted] = useState(true);
+  const [isShowing, setIsShowing] = useState(true);
 
   React.useEffect(() => {
     const intervalId = setInterval(
@@ -94,6 +96,15 @@ const About = () => {
         </div>
         <div className="second">
           <h3>Spesielized in ui/ux </h3>
+        </div>
+        <div className="second">
+          <div className={`disapearing-div ${isShowing ? `` : `hide-div`}`}>
+            <h2>If you want to enjoy just the background </h2>
+            <h3>A disapearing div </h3>
+          </div>
+          <Button onClick={() => setIsShowing(!isShowing)}>
+            {isShowing ? 'Hide' : 'Show'}
+          </Button>
         </div>
         <div className="home_fotter">
           <h3>on the search for my next chanlege 🤑</h3>
