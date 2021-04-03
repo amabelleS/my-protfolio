@@ -18,13 +18,7 @@ const Projects = () => {
     <React.Fragment>
       <div className="projects_content-wrapper">
         <div className="project_dashboard">
-          <img
-            className="logo"
-            src={dashbourdUrl}
-            alt="dashbourd"
-            // height={200}
-            // width={200}
-          />
+          <img className="logo" src={dashbourdUrl} alt="dashbourd" />
         </div>
         <div className="project_storages">
           <img src={storagesItems} alt="storages" />
