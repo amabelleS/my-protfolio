@@ -76,10 +76,6 @@
   animation: flip-image 1s ease-out forwards;
 }
 
-.projects_info_description {
-  /* margin: 0 1rem; */
-}
-
 .project_dashboard {
   background: linear-gradient(
       0deg,
@@ -109,11 +105,14 @@
     ),
     url('../assets/community2.jpeg');
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .next {
   width: 24%;
   max-width: 12rem;
+  margin-bottom: 2rem;
   box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
   /* transform: skew(20deg); */
   overflow: hidden;

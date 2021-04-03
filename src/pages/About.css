@@ -17,6 +17,11 @@
   font-size: 1.5rem;
 }
 
+.about-text_exp {
+  font-size: 1.4rem;
+  color: aquamarine;
+}
+
 .about-main {
   margin: 1rem 5rem;
   font-size: 1.6rem;
@@ -41,4 +46,24 @@
 }
 .hide-div {
   opacity: 0;
+}
+
+.about_exp h4 {
+  transform: translateX(18rem);
+  margin-right: 2rem;
+}
+
+.about_exp_article {
+  display: flex;
+  margin: 0 2rem;
+  justify-content: space-between;
+}
+
+.about_exp_article p {
+  margin-left: 2rem;
+  color: aqua;
+}
+.about_exp_article span {
+  font-size: 1.5rem;
+  color: aqua;
 }

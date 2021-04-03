@@ -113,14 +113,56 @@ const About = () => {
             />
           </h1>
         </div>
-        <div className="about_skills">
+        <div className="about_exp">
           <h4>
             <TextTransition
               text={TEXTS_3[index % TEXTS_3.length]}
               springConfig={presets.slow}
-              className="about-text_small"
+              className="about-text_exp"
             />
           </h4>
+          <article className="about_exp_article">
+            <h3>
+              2020-3/2021 <span>Web developer</span>, Willing app, Tel-aviv.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </article>
+          <article className="about_exp_article">
+            <h3>
+              2020-3/2021 <span>Web developer</span>, Willing app, Tel-aviv.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </article>
+          <article className="about_exp_article">
+            <h3>
+              2020-3/2021 <span>Web developer</span>, Willing app, Tel-aviv.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </article>
         </div>
         <div className="second">
           <h3>Spesielized in ui/ux </h3>
