@@ -5,7 +5,6 @@ import './Projects.css';
 
 import dashbourdUrl from '../assets/dashboad.jpg';
 import storagesItems from '../assets/items.png';
-// const Images = [dashbourdUrl];
 
 const projects = [
   { name: 'Internship', src: dashbourdUrl },
@@ -18,7 +17,9 @@ const Projects = () => {
     <React.Fragment>
       <div className="projects_content-wrapper">
         <div className="project_dashboard">
-          <img className="logo" src={dashbourdUrl} alt="dashbourd" />
+          <div className="projects_img_container">
+            <img className="logo" src={dashbourdUrl} alt="dashbourd" />
+          </div>
         </div>
         <div className="project_storages">
           <img src={storagesItems} alt="storages" />
