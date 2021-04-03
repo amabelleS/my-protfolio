@@ -31,11 +31,6 @@
   /* transform: skew(-20deg) scale(1); */
 }
 
-.projects_info {
-  text-align: right;
-  padding: 0.9rem;
-}
-
 .project {
   position: relative;
   min-height: 100vh;
@@ -51,11 +46,13 @@
   border-bottom: 1px solid whitesmoke;
 }
 
+.projects_info {
+  text-align: right;
+  padding: 0.9rem;
+}
+
 .projects_info:hover .projects_info_subtitle,
 .projects_info:active .projects_info_subtitle {
-  /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
-  /* border-color: #ff5454; */
-  /* border-color: #ff5454 !important; */
   animation: push-up 1s ease-out forwards;
 }
 
