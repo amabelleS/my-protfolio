@@ -1,4 +1,4 @@
-.project--storages {
+.project--our-storages {
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.8) 0%,
@@ -52,7 +52,8 @@
   margin: 0;
   font-size: 0.8rem;
   color: white;
-  background: #ff5454;
+  /* background: #ff5454; */
+  background: #ef476f;
   padding: 0.5rem;
   transform: rotate(45deg) translate(6rem);
   transform-origin: center;

@@ -62,6 +62,10 @@
   /* padding-top: 2rem; */
   /* z-index: 100; */
 }
+.projects_info_subtitle {
+  color: #ef476f;
+  text-transform: capitalize;
+}
 
 .projects_info:hover .projects_info_subtitle,
 .projects_info:active .projects_info_subtitle {
