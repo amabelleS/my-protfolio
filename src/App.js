@@ -7,7 +7,7 @@ import MainNavigation from './shared/components/navigation/MainNavigation';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Fotter from './shared/components/Fotter';
+import Fotter from './shared/components/UIElements/Fotter';
 
 // const Auth = React.lazy(() => import('./user/pages/Auth'));
 

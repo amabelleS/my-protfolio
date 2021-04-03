@@ -1,5 +1,6 @@
 import React from 'react';
 
+import ProjectsList from '../shared/components/projects/ProjectsList';
 // import ImageSlider from '../shared/components/UIElements/slider/ImageSlider';
 import './Projects.css';
 
@@ -26,6 +27,7 @@ const Projects = () => {
   return (
     <React.Fragment>
       <div className="projects_content-wrapper">
+        <ProjectsList />
         <div className="project project_storages">
           <div className="projects_img_container">
             <img src={projects[0].src} alt="dashbourd" />
