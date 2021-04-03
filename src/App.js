@@ -7,6 +7,7 @@ import MainNavigation from './shared/components/navigation/MainNavigation';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Blog from './pages/Blog';
 import Fotter from './shared/components/UIElements/Fotter';
 
 // const Auth = React.lazy(() => import('./user/pages/Auth'));
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route exact path="/projects">
             <Projects />
+          </Route>
+          <Route exact path="/blog">
+            <Blog />
           </Route>
         </Switch>
         {/* </Suspense> */}
