@@ -21,6 +21,18 @@ const TEXTS_2 = [
   'Big Picture Fucus',
   '..and Attention to Details',
 ];
+const TEXTS_3 = [
+  'HTML',
+  'CSS',
+  'JS',
+  'React.js',
+  'Node.js',
+  'Express.js',
+  'MongoDB',
+  'Mongoose',
+  'Vue.js',
+  'Typescript',
+];
 
 // const pdfUrl = './Amabelle_Trachtenberg_cv-2021.pdf';
 
@@ -85,7 +97,7 @@ const About = () => {
           </div> */}
         </div>
 
-        <div className="home_project">
+        <div className="about_skills">
           <h1>
             <TextTransition
               text={TEXTS_2[index % TEXTS_2.length]}
@@ -94,13 +106,22 @@ const About = () => {
             />
           </h1>
         </div>
+        <div className="about_skills">
+          <h4>
+            <TextTransition
+              text={TEXTS_3[index % TEXTS_3.length]}
+              springConfig={presets.slow}
+              className="about-text_small"
+            />
+          </h4>
+        </div>
         <div className="second">
           <h3>Spesielized in ui/ux </h3>
         </div>
-        <div className="second">
+        <div className="about-enjoy">
           <div className={`disapearing-div ${isShowing ? `` : `hide-div`}`}>
-            <h2>If you want to enjoy just the background </h2>
-            <h3>A disapearing div </h3>
+            <h2>If you want to enjoy just the background</h2>
+            <h3>A disapearing div</h3>
           </div>
           <Button onClick={() => setIsShowing(!isShowing)}>
             {isShowing ? 'Hide' : 'Show'}
