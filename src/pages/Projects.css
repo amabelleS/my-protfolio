@@ -1,5 +1,5 @@
-.projects_content-wrapper,
-.projects_content-wrapper > div {
+.projects_content-wrapper {
+  /* .projects_content-wrapper > div { */
   position: relative;
   min-height: 100vh;
   text-align: center;
@@ -14,8 +14,8 @@
 }
 
 .projects_img_container {
-  width: 60%;
-  max-width: 40rem;
+  width: 40%;
+  max-width: 28rem;
   box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
   /* transform: skew(20deg); */
   overflow: hidden;
@@ -30,7 +30,24 @@
   /* transform: skew(-20deg) scale(1); */
 }
 
-.project_dashboard:hover .projects_img_container {
+.projects_info {
+  text-align: right;
+  padding: 0.9rem;
+}
+
+.project {
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100vw;
+}
+
+.project:hover .projects_img_container {
   animation: flip-image 1s ease-out forwards;
 }
 

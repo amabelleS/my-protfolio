@@ -7,8 +7,18 @@ import dashbourdUrl from '../assets/dashboad.jpg';
 import storagesItems from '../assets/items.png';
 
 const projects = [
-  { name: 'Internship', src: dashbourdUrl },
-  { name: 'Storages', src: storagesItems },
+  {
+    name: 'Storages',
+    src: storagesItems,
+    discription: 'Community storages',
+    url: 'https://community-storages.web.app/',
+  },
+  {
+    name: 'Internship',
+    src: dashbourdUrl,
+    discription: 'Community storages',
+    url: null,
+  },
 ];
 
 const Projects = () => {
@@ -16,13 +26,30 @@ const Projects = () => {
   return (
     <React.Fragment>
       <div className="projects_content-wrapper">
-        <div className="project_dashboard">
+        <div className="project project_storages">
           <div className="projects_img_container">
-            <img className="logo" src={dashbourdUrl} alt="dashbourd" />
+            <img src={projects[0].src} alt="dashbourd" />
+          </div>
+          <div className="projects_info">
+            <h1>{projects[0].name}</h1>
+            <h3 className="projects_info_subtitle">
+              {projects[0].discription}
+            </h3>
+            <a href={projects[0].url}>{projects[0].name}</a>
           </div>
         </div>
-        <div className="project_storages">
-          <img src={storagesItems} alt="storages" />
+
+        <div className="project project_dashboard">
+          <div className="projects_img_container">
+            <img src={projects[1].src} alt="storages" />
+          </div>
+          <div className="projects_info">
+            <h1>{projects[1].name}</h1>
+            <h3 className="projects_info_subtitle">
+              {projects[1].discription}
+            </h3>
+            <a href={projects[1].url}>{projects[1].name}</a>
+          </div>
         </div>
       </div>
     </React.Fragment>
