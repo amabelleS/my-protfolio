@@ -6,10 +6,12 @@ const Project = (props) => {
   return (
     // <li className={`project  ${(props.background && 'project--storages') || ''}`}>
     <li className={`project project--${props.name}`}>
+      <h2 className="project__badge">{props.name}</h2>
       <div className="projects_img_container">
         <img src={props.src} alt="dashbourd" />
       </div>
       <div className="projects_info">
+        <h2 className="project__badge">{props.name}</h2>
         <h1>{props.name}</h1>
         <h3 className="projects_info_subtitle">{props.description}</h3>
         <a href={props.url}>{props.name}</a>

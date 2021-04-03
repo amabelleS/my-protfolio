@@ -4,9 +4,6 @@ import ProjectsList from '../shared/components/projects/ProjectsList';
 
 import './Projects.css';
 
-import dashbourdUrl from '../assets/dashboad.jpg';
-import storagesItems from '../assets/items.png';
-
 const Projects = () => {
   return (
     <React.Fragment>
