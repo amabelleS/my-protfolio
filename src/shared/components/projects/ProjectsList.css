@@ -38,3 +38,18 @@
   text-align: center;
   text-transform: uppercase !important;
 }
+
+.project a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.project a:hover,
+.project a:active {
+  /* animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; */
+  color: aquamarine;
+  /* transform: skewX(-20deg) scale(1.1); */
+  font-style: oblique;
+  text-shadow: 1px 1px 1px gray;
+  font-size: 1.1rem;
+}

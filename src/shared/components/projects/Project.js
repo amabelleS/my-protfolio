@@ -14,7 +14,9 @@ const Project = (props) => {
         <h1 className="project__badge">{props.name}</h1>
         {/* <h1>{props.name}</h1> */}
         <h3 className="projects_info_subtitle">{props.description}</h3>
-        <a href={props.url}>{props.name}</a>
+        <div className="project_info_link">
+          <a href={props.url}>{props.name}</a>
+        </div>
       </div>
     </li>
   );
