@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 import TextTransition, { presets } from 'react-text-transition';
 
-import Button from '../shared/components/FormElements/Button';
+// import Button from '../shared/components/FormElements/Button';
 
 import './About.css';
 
@@ -20,6 +20,8 @@ const TEXTS_2 = [
   'Big Picture Fucus',
   '..and Attention to Details',
 ];
+
+// const pdfUrl = './Amabelle_Trachtenberg_cv-2021.pdf';
 
 const About = () => {
   const [index, setIndex] = useState(0);
@@ -104,6 +106,9 @@ const About = () => {
               maxHeight: '50vh',
             }}
           ></img>
+          {/* <a href={pdfUrl} target="_blank">
+            Download Pdf
+          </a> */}
         </div>
       </div>
     </React.Fragment>
