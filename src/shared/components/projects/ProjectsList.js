@@ -12,14 +12,18 @@ const projects = [
     name: 'storages',
     src: storagesItems,
     subtitle: 'Mern-App for community storages',
-    description: 'Community storages...',
+    description: `Community storages is A New Playground:) Were you can find different kind
+     of storages, reserve items you want to borrow, or open and manage a new storage.
+     State managment with useContext & useReducer only for full redux like functionalities. A storage manager can observe and manage his/hers storage charts (canvasjs, modified to functional components). And more...`,
     url: 'https://community-storages.web.app/',
+    githubUrl: 'https://github.com/amabelleS',
   },
   {
     name: 'chat-room',
     src: crChat,
     subtitle: 'A vue.js app',
-    description: 'A vue.js app. Firebase & FireStore...',
+    description:
+      'This project is utelized with firebase authentication, and cloud firestore for the server side.',
     url: 'https://live-chat-24679.web.app/',
   },
   {
@@ -47,6 +51,7 @@ const ProjectsList = () => {
           name={project.name}
           src={project.src}
           url={project.url || ''}
+          githubUrl={project.githubUrl || ''}
           subtitle={project.subtitle}
           description={project.description}
         />

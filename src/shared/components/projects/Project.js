@@ -16,7 +16,10 @@ const Project = (props) => {
         <h2 className="projects_info_subtitle">{props.subtitle}</h2>
         <h4 className="projects_info_description">{props.description}</h4>
         <div className="project_info_link">
-          <a href={props.url}>{props.name}</a>
+          <a href={props.url}>To {props.name} website</a>
+        </div>
+        <div className="project_info_link">
+          <a href={props.githubUrl}>To gitHub repo</a>
         </div>
       </div>
     </li>
