@@ -54,9 +54,9 @@
   color: white;
   background: #ff5454;
   padding: 0.5rem;
-  transform: rotate(45deg) translate(2.4rem, 1.2rem);
+  transform: rotate(45deg) translate(6rem);
   transform-origin: center;
-  width: 12rem;
+  width: 18rem;
   text-align: center;
   text-transform: uppercase !important;
 }

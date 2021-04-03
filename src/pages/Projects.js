@@ -3,7 +3,6 @@ import React from 'react';
 import ProjectsList from '../shared/components/projects/ProjectsList';
 
 import nextProjectsFront from '../assets/community7.jpeg';
-import nextProjectsBack from '../assets/community2.jpeg';
 
 import './Projects.css';
 

@@ -26,12 +26,19 @@ const TEXTS_3 = [
   'CSS',
   'JS',
   'React.js',
+  'React Hooks',
   'Node.js',
   'Express.js',
   'MongoDB',
   'Mongoose',
+  'Git & gitHub',
+  //   'GitHub',
   'Vue.js',
   'Typescript',
+  'Firebase',
+  'VSCode',
+  'Canvas.js',
+  'Directed graphs',
 ];
 
 // const pdfUrl = './Amabelle_Trachtenberg_cv-2021.pdf';
