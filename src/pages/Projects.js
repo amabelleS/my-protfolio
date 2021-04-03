@@ -1,34 +1,18 @@
 import React from 'react';
 
 import ProjectsList from '../shared/components/projects/ProjectsList';
-// import ImageSlider from '../shared/components/UIElements/slider/ImageSlider';
+
 import './Projects.css';
 
 import dashbourdUrl from '../assets/dashboad.jpg';
 import storagesItems from '../assets/items.png';
 
-const projects = [
-  {
-    name: 'Storages',
-    src: storagesItems,
-    discription: 'Community storages',
-    url: 'https://community-storages.web.app/',
-  },
-  {
-    name: 'Internship',
-    src: dashbourdUrl,
-    discription: 'Community storages',
-    url: null,
-  },
-];
-
 const Projects = () => {
-  // const [images, setImages] = React.useState(Images);
   return (
     <React.Fragment>
       <div className="projects_content-wrapper">
         <ProjectsList />
-        <div className="project project_storages">
+        {/* <div className="project project_storages">
           <div className="projects_img_container">
             <img src={projects[0].src} alt="dashbourd" />
           </div>
@@ -52,13 +36,9 @@ const Projects = () => {
             </h3>
             <a href={projects[1].url}>{projects[1].name}</a>
           </div>
-        </div>
+        </div> */}
       </div>
     </React.Fragment>
-    // <div style={{ marginTop: '6rem', width: '100%', height: '100%' }}>
-    //   <h1>Slider</h1>
-    //   <ImageSlider images={images} />
-    // </div>
   );
 };
 

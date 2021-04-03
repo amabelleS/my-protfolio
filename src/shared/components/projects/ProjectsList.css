@@ -7,3 +7,18 @@
     url('../../../assets/chart_items.png');
   background-size: cover;
 }
+
+.project--internship {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../../assets/dashboad.jpg');
+
+  background-size: cover;
+}
+
+.project h1 {
+  text-transform: capitalize;
+}

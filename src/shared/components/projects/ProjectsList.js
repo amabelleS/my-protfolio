@@ -13,7 +13,7 @@ const projects = [
     url: 'https://community-storages.web.app/',
   },
   {
-    name: 'Internship',
+    name: 'internship',
     src: dashbourdUrl,
     description: 'Community storages',
     url: null,
