@@ -136,7 +136,7 @@ const About = () => {
               app, I used useReducer for the state managment.
             </p>
           </article>
-          <article className="about_exp_article">
+          {/* <article className="about_exp_article">
             <h3>
               2019-6/2020 <span>Front-End Web development</span>, SVcollage,
               Tel-aviv.
@@ -145,8 +145,8 @@ const About = () => {
               Implemented during the course by small web-apps with Html, CSS,
               JavaScript and react.
             </p>
-          </article>
-          <article className="about_exp_article">
+          </article> */}
+          {/* <article className="about_exp_article">
             <h3>
               2016-now <span>Web developer</span>, SheCodes, Udemy, The Web...
             </h3>
@@ -159,8 +159,8 @@ const About = () => {
               were my capabilities will come at hand:) Next steps, Docker &
               Kubernetes. Or mabye typescript and Anjular?
             </p>
-          </article>
-          <article className="about_exp_article">
+          </article> */}
+          {/* <article className="about_exp_article">
             <h3>
               2015-2016 <span>Occupational psychologist</span>, Keinan-Shefi,
               Tel-Aviv.
@@ -169,8 +169,8 @@ const About = () => {
               Personal interviews, group dynamics tests, evaluation days for
               government gobs, and final evaluation reports.
             </p>
-          </article>
-          <article className="about_exp_article">
+          </article> */}
+          {/* <article className="about_exp_article">
             <h3>
               2009-2012 <span>Research Assistant</span>, Haifa Univercity.
             </h3>
@@ -179,7 +179,7 @@ const About = () => {
               and editing articles, administrations, statistical analyzing
               mostly with SPSS, and everything that needed to be done:)
             </p>
-          </article>
+          </article> */}
         </div>
         {/* <div className="second">
           <h3>Spesielized in ui/ux </h3>
@@ -194,7 +194,7 @@ const About = () => {
           </Button>
         </div>
         <div className="home_fotter">
-          <h3>on the search for my next chanlege 🤑</h3>
+          <h3>on the search for my next chanllegne 🤑</h3>
           <img
             alt="my avater"
             src="https://avatars.githubusercontent.com/u/45571546?v=4"

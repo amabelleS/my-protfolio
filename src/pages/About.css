@@ -20,7 +20,7 @@
 
 .about-text_exp {
   font-size: 1.4rem;
-  color: aquamarine;
+  /* color: aquamarine; */
   color: aqua;
 }
 
@@ -34,11 +34,6 @@
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.5);
-}
-.about-second {
-  height: 100vh;
-  width: 100vw;
-  background-color: transparent;
 }
 
 .disapearing-div {
@@ -73,4 +68,17 @@
   font-size: 1.5rem;
   color: aqua;
   text-transform: capitalize;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .about_exp h4 {
+    transform: translateX(0);
+    /* margin-right: 2rem; */
+  }
+}
+
+@media (max-aspect-ratio: 16 / 9) {
+  .about_exp h4 {
+    transform: translateX(0);
+  }
 }
