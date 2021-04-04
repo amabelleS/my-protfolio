@@ -126,41 +126,58 @@ const About = () => {
               2020-3/2021 <span>Web developer</span>, Willing app, Tel-aviv.
             </h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Building the dashboard for the managment front/react.js app of
+              WillingApp - A free, social application for matches between ppl in
+              need, and ppl who can help. Implemented BOOTSTRAP date-picker, as
+              the user chooses the date-range, callind the server for data for
+              that range. Also implemented canvas.js - wrote it as a functional
+              component, that render data received from the server upon louding,
+              according to an API call. As there is no global state for this
+              app, I used useReducer for the state managment.
             </p>
           </article>
           <article className="about_exp_article">
             <h3>
-              2020-3/2021 <span>Web developer</span>, Willing app, Tel-aviv.
+              2019-6/2020 <span>Front-End Web development</span>, SVcollage,
+              Tel-aviv.
             </h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Implemented during the course by small web-apps with Html, CSS,
+              JavaScript and react.
             </p>
           </article>
           <article className="about_exp_article">
             <h3>
-              2020-3/2021 <span>Web developer</span>, Willing app, Tel-aviv.
+              2016-now <span>Web developer</span>, SheCodes, Udemy, The Web...
             </h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Since the course ended, I’ve been learning from the web the
+              back-end: node.js, mongoDB, express, react, redux, mob-x,
+              react-query and other state management tools. I have implemented
+              charts in the internship, directed graphs on a side project, and
+              learned vue.js in a few days. I would really love to find a place
+              were my capabilities will come at hand:) Next steps, Docker &
+              Kubernetes. Or mabye typescript and Anjular?
+            </p>
+          </article>
+          <article className="about_exp_article">
+            <h3>
+              2015-2016 <span>Occupational psychologist</span>, Keinan-Shefi,
+              Tel-Aviv.
+            </h3>
+            <p>
+              Personal interviews, group dynamics tests, evaluation days for
+              government gobs, and final evaluation reports.
+            </p>
+          </article>
+          <article className="about_exp_article">
+            <h3>
+              2009-2012 <span>Research Assistant</span>, Haifa Univercity.
+            </h3>
+            <p>
+              An international research, on eyewitness credibility. Summarizing
+              and editing articles, administrations, statistical analyzing
+              mostly with SPSS, and everything that needed to be done:)
             </p>
           </article>
         </div>

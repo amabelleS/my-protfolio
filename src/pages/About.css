@@ -66,7 +66,11 @@
   margin-left: 2rem;
   color: aquamarine;
 }
+.about_exp_article h3 {
+  max-width: 20%;
+}
 .about_exp_article span {
   font-size: 1.5rem;
   color: aqua;
+  text-transform: capitalize;
 }

@@ -3,14 +3,14 @@ import React from 'react';
 import Project from './Project';
 
 import dashbourdUrl from '../../../assets/dashboad.jpg';
-import storagesItems from '../../../assets/items.png';
+import storagesFront from '../../../assets/storages-front.png';
 import communityGardens from '../../../assets/community7.jpeg';
 import crChat from '../../../assets/crChat.png';
 
 const projects = [
   {
     name: 'our-storages',
-    src: storagesItems,
+    src: storagesFront,
     subtitle: 'Mern-App for community storages',
     description: `Community storages is A New Playground:) Were you can find different kind
      of storages, reserve items you want to borrow, or open and manage a new storage.
