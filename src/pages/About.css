@@ -12,6 +12,7 @@
 
 .about-text {
   font-size: 3rem;
+  color: aqua;
 }
 .about-text_small {
   font-size: 1.5rem;
@@ -20,11 +21,13 @@
 .about-text_exp {
   font-size: 1.4rem;
   color: aquamarine;
+  color: aqua;
 }
 
 .about-main {
   margin: 1rem 5rem;
   font-size: 1.6rem;
+  color: aquamarine;
 }
 
 .about-second {
@@ -61,7 +64,7 @@
 
 .about_exp_article p {
   margin-left: 2rem;
-  color: aqua;
+  color: aquamarine;
 }
 .about_exp_article span {
   font-size: 1.5rem;

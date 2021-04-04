@@ -164,9 +164,9 @@ const About = () => {
             </p>
           </article>
         </div>
-        <div className="second">
+        {/* <div className="second">
           <h3>Spesielized in ui/ux </h3>
-        </div>
+        </div> */}
         <div className="about-enjoy">
           <div className={`disapearing-div ${isShowing ? `` : `hide-div`}`}>
             <h2>If you want to enjoy just the background</h2>
