@@ -75,7 +75,7 @@ const Home = () => {
               </article>
             </div>
           </div>
-          <Button inverse to="/projets">
+          <Button inverse to="/projects">
             More projects
           </Button>
         </div>
@@ -84,7 +84,7 @@ const Home = () => {
           <Button to="/blog">My blog</Button>
         </div>
         <div className="home_fotter">
-          <h3>on the search for my next chanlege 🤑</h3>
+          <h3>on the search for my next chanllegne 🤑</h3>
           <img
             alt="my avater"
             src="https://avatars.githubusercontent.com/u/45571546?v=4"
