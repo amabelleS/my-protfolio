@@ -44,7 +44,7 @@ const Projects = () => {
           <TextTransition
             text={TEXTS[index % TEXTS.length]}
             springConfig={presets.molasses}
-            className="about-text_small"
+            className="projects-text"
           />
         </div>
         {/* <div className="project project_storages">
