@@ -200,8 +200,8 @@ const About = () => {
             src="https://avatars.githubusercontent.com/u/45571546?v=4"
             style={{
               clipPath: 'circle(50% at 50% 50%)',
-              maxWidth: '50vw',
-              maxHeight: '50vh',
+              maxWidth: '42vw',
+              maxHeight: '42vh',
             }}
           ></img>
           {/* <a href={pdfUrl} target="_blank">

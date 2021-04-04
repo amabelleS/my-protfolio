@@ -205,6 +205,12 @@
   /* background-color: transparent; */
 }
 
+.home_fotter h3 {
+  text-transform: capitalize;
+  color: aquamarine;
+  margin-bottom: 2rem;
+}
+
 @keyframes slideInText {
   from {
     /* opacity: 0; */
