@@ -75,10 +75,13 @@ const Home = () => {
               </article>
             </div>
           </div>
-          <Button to="/projets">My projects</Button>
+          <Button inverse to="/projets">
+            More projects
+          </Button>
         </div>
         <div className="second">
-          <h3>My Blog</h3>
+          <h3>My Blog - Under construction..</h3>
+          <Button to="/blog">My blog</Button>
         </div>
         <div className="home_fotter">
           <h3>on the search for my next chanlege 🤑</h3>
