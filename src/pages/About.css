@@ -65,6 +65,7 @@
 .about_exp_article h3 {
   max-width: 12%;
   margin-right: 1rem;
+  text-transform: capitalize;
 }
 
 .about_exp_article span {

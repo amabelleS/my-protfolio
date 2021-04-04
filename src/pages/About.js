@@ -15,7 +15,7 @@ const TEXTS_2 = [
   'Efficiency',
   'Task Managment',
   'Fast Learner',
-  'Self Tout',
+  'Self taught',
   'Passion About New Technologies',
   'Team Player',
   'Big Picture Fucus',
@@ -88,7 +88,7 @@ const About = () => {
             spaces that will help us manage ourselves, share knowledge, and
             build together sustainable communities. So, I started to learn how
             to code:) First with the help of the wonderful community SHECODES,
-            but mostly self-taut. About a half-year ago or more, I finished a
+            but mostly self-taught. About a half-year ago or more, I finished a
             front-end development course, then took an internship, and continued
             to educate myself with new technologies that I praioteriez (so much
             to choose from){' '}
@@ -129,11 +129,11 @@ const About = () => {
               Building the dashboard for the managment front/react.js app of
               WillingApp - A free, social application for matches between ppl in
               need, and ppl who can help. Implemented BOOTSTRAP date-picker, as
-              the user chooses the date-range, callind the server for data for
+              the user chooses the date-range, calling the server for data for
               that range. Also implemented canvas.js - wrote it as a functional
-              component, that render data received from the server upon louding,
-              according to an API call. As there is no global state for this
-              app, I used useReducer for the state managment.
+              component, that renders the data received from the server upon
+              loading, according to an API call. As there is no global state for
+              this app, I used useReducer for the state managment.
             </p>
           </article>
           <article className="about_exp_article">
@@ -156,8 +156,8 @@ const About = () => {
               react-query and other state management tools. I have implemented
               charts in the internship, directed graphs on a side project, and
               learned vue.js in a few days. I would really love to find a place
-              were my capabilities will come at hand:) Next steps, Docker &
-              Kubernetes. Or mabye typescript and Anjular?
+              where my capabilities will come at hand:) Next steps, Docker &
+              Kubernetes. Or maybe typescript and Anjular?
             </p>
           </article>
           <article className="about_exp_article">
@@ -166,8 +166,8 @@ const About = () => {
               Tel-Aviv.
             </h3>
             <p>
-              Personal interviews, group dynamics tests, evaluation days for
-              government gobs, and final evaluation reports.
+              Personal interviews, group dynamic tests, evaluation days for
+              government positions, and final evaluation reports.
             </p>
           </article>
           <article className="about_exp_article">
