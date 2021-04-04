@@ -21,6 +21,7 @@
 }
 
 .projects_img_container {
+  /* align-self: start; */
   width: 40%;
   max-width: 28rem;
   box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
@@ -41,9 +42,10 @@
 .project {
   position: relative;
   min-height: 100vh;
+  padding-top: 1rem;
   text-align: center;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   color: white;
@@ -141,5 +143,11 @@
 
   100% {
     transform: translateY(-1rem);
+  }
+}
+
+@media (max-width: 550px) {
+  .project {
+    /* flex-direction: column; */
   }
 }
