@@ -123,7 +123,7 @@ const About = () => {
           </h4>
           <article className="about_exp_article">
             <h3>
-              2020-3/2021 <span>Web developer</span>, Willing app, Tel-aviv.
+              2020-3/2021 <span>Web developer</span> Willing app, Tel-aviv.
             </h3>
             <p>
               Building the dashboard for the managment front/react.js app of
@@ -136,19 +136,19 @@ const About = () => {
               app, I used useReducer for the state managment.
             </p>
           </article>
-          {/* <article className="about_exp_article">
+          <article className="about_exp_article">
             <h3>
-              2019-6/2020 <span>Front-End Web development</span>, SVcollage,
+              2019-6/2020 <span>Front-End Web development</span> SVcollage,
               Tel-aviv.
             </h3>
             <p>
               Implemented during the course by small web-apps with Html, CSS,
               JavaScript and react.
             </p>
-          </article> */}
-          {/* <article className="about_exp_article">
+          </article>
+          <article className="about_exp_article">
             <h3>
-              2016-now <span>Web developer</span>, SheCodes, Udemy, The Web...
+              2016-now <span>Web developer</span> SheCodes, Udemy, The Web...
             </h3>
             <p>
               Since the course ended, I’ve been learning from the web the
@@ -159,31 +159,29 @@ const About = () => {
               were my capabilities will come at hand:) Next steps, Docker &
               Kubernetes. Or mabye typescript and Anjular?
             </p>
-          </article> */}
-          {/* <article className="about_exp_article">
+          </article>
+          <article className="about_exp_article">
             <h3>
-              2015-2016 <span>Occupational psychologist</span>, Keinan-Shefi,
+              2015-2016 <span>Occupational psychologist</span> Keinan-Shefi,
               Tel-Aviv.
             </h3>
             <p>
               Personal interviews, group dynamics tests, evaluation days for
               government gobs, and final evaluation reports.
             </p>
-          </article> */}
-          {/* <article className="about_exp_article">
+          </article>
+          <article className="about_exp_article">
             <h3>
-              2009-2012 <span>Research Assistant</span>, Haifa Univercity.
+              2009-2012 <span>Research Assistant</span> Haifa Univercity.
             </h3>
             <p>
               An international research, on eyewitness credibility. Summarizing
               and editing articles, administrations, statistical analyzing
               mostly with SPSS, and everything that needed to be done:)
             </p>
-          </article> */}
+          </article>
         </div>
-        {/* <div className="second">
-          <h3>Spesielized in ui/ux </h3>
-        </div> */}
+
         <div className="about-enjoy">
           <div className={`disapearing-div ${isShowing ? `` : `hide-div`}`}>
             <h2>If you want to enjoy just the background</h2>
