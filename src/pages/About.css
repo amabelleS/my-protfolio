@@ -76,7 +76,7 @@
   max-width: 18%;
 }
 
-@media (min-aspect-ratio: 16/9) {
+/* @media (min-aspect-ratio: 16/9) {
   .about_exp h4 {
     transform: translateX(0);
   }
@@ -87,7 +87,7 @@
     max-width: 100%;
     margin-right: 0;
   }
-}
+} */
 
 @media (max-aspect-ratio: 16 / 9) {
   .about_exp h4 {
