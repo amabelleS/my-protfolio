@@ -141,6 +141,10 @@
   transform: scaleX(0);
 } */
 
+.home_about h2 {
+  text-transform: capitalize;
+  color: aqua;
+}
 .home_about:hover h2 {
   animation: flip 1s ease-out forwards;
 }
