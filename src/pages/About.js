@@ -72,15 +72,12 @@ const About = () => {
       </div>
 
       <div className="content-wrapper">
-        <div className="about_first">
-          {/* <h1></h1> */}
-
+        <div className="gradient_from-black">
           <TextTransition
             text={TEXTS[index % TEXTS.length]}
             springConfig={presets.molasses}
             className="about-text"
           />
-
           <p className="about-main">
             With a background as a cognitive psychologist, I’m all about the
             user-experience. I'm passionate to build and design web applications
@@ -93,18 +90,9 @@ const About = () => {
             to educate myself with new technologies that I praioteriez (so much
             to choose from){' '}
           </p>
-          {/* <div className="home_btn">
-            <Button
-              onClick={() => setIsMuted(!isMuted)}
-              inverse
-              className="home_mute"
-            >
-              {isMuted ? 'Unmute' : 'Mute'}
-            </Button>
-          </div> */}
         </div>
 
-        <div className="about_skills">
+        <div className="gradient_static-shade">
           <h1>
             <TextTransition
               text={TEXTS_2[index % TEXTS_2.length]}
@@ -113,7 +101,7 @@ const About = () => {
             />
           </h1>
         </div>
-        <div className="about_exp">
+        <div className="gradient_to-clear about_exp">
           <h4>
             <TextTransition
               text={TEXTS_3[index % TEXTS_3.length]}
@@ -182,7 +170,7 @@ const About = () => {
           </article>
         </div>
 
-        <div className="about-enjoy">
+        <div className="gradient_clear">
           <div className={`disapearing-div ${isShowing ? `` : `hide-div`}`}>
             <h2>If you want to enjoy just the background</h2>
             <h3>A disapearing div</h3>
@@ -191,7 +179,7 @@ const About = () => {
             {isShowing ? 'Hide' : 'Show'}
           </Button>
         </div>
-        <div className="home_fotter">
+        <div className="gradient_to-black home_fotter">
           <h3>on the search for my next chanllegne 🤑</h3>
           <img
             alt="my avater"
