@@ -143,9 +143,6 @@ const About = () => {
               JavaScript and react.
             </p>
           </article>
-        </div>
-
-        <div className="gradient_clear">
           <article className="about_exp_article">
             <h3>
               2016-now <span>Web developer</span> SheCodes, Udemy, The Web...
@@ -170,7 +167,7 @@ const About = () => {
               government positions, and final evaluation reports.
             </p>
           </article>
-          {/* <article className="about_exp_article">
+          <article className="about_exp_article">
             <h3>
               2009-2012 <span>Research Assistant</span> Haifa Univercity.
             </h3>
@@ -179,8 +176,11 @@ const About = () => {
               and editing articles, administrations, statistical analyzing
               mostly with SPSS, and everything that needed to be done:)
             </p>
-          </article> */}
+          </article>
         </div>
+
+        {/* <div className="gradient_clear"></div> */}
+
         <div className="gradient_from-clear">
           <div className={`disapearing-div ${isShowing ? `` : `hide-div`}`}>
             <h2>If you want to enjoy just the background</h2>

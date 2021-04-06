@@ -23,12 +23,17 @@
   color: aquamarine;
 }
 
+.about_exp {
+  height: 300%;
+}
+
 .about_exp a {
   text-decoration: none;
-  color: #ffaebc;
+  /* color: #ffaebc; */
+  color: aquamarine;
 }
 .about_exp a:hover {
-  text-decoration: none;
+  font-style: oblique;
   color: aqua;
 }
 
@@ -93,6 +98,9 @@
 
   .about_exp h4 {
     transform: translateX(0);
+  }
+  .about_exp a {
+    color: #ffaebc;
   }
   .about_exp_article {
     flex-direction: column;
