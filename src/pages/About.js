@@ -74,13 +74,13 @@ const About = () => {
       <div className="content-wrapper">
         <div className="about_first">
           {/* <h1></h1> */}
-          <h1>
-            <TextTransition
-              text={TEXTS[index % TEXTS.length]}
-              springConfig={presets.molasses}
-              className="about-text"
-            />
-          </h1>
+
+          <TextTransition
+            text={TEXTS[index % TEXTS.length]}
+            springConfig={presets.molasses}
+            className="about-text"
+          />
+
           <p className="about-main">
             With a background as a cognitive psychologist, I’m all about the
             user-experience. I'm passionate to build and design web applications
