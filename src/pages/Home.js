@@ -33,7 +33,7 @@ const Home = () => {
         />
       </div>
       <div className="content-wrapper">
-        <div className="home_hello">
+        <div className="gradient_from-black home_hello">
           <h1>Hello, Word. I’m Amabelle.</h1>
           <h2>Hover Over</h2>
           <div className="home_btn">
@@ -47,7 +47,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="home_about">
+        <div className="gradient_static-shade home_about">
           <h2 className="slide-in-left">A Web Developer</h2>
           <h2 className="slide-in-right">A user experience designer</h2>
           <h2 className="slide-in-left">An ideas actualizer</h2>
@@ -56,8 +56,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* <div className="second">Hoo</div> */}
-        <div className="home_project">
+        <div className="gradient_to-clear home_project">
           <div className="home_projects_main">
             <h1 className="home_projects_main_title">My projects</h1>
             <div className="home_projects_main_list">
@@ -79,11 +78,11 @@ const Home = () => {
             More projects
           </Button>
         </div>
-        <div className="second">
+        <div className="gradient_clear">
           <h3>My Blog - Under construction..</h3>
           <Button to="/blog">My blog</Button>
         </div>
-        <div className="home_fotter">
+        <div className="gradient_to-black home_fotter">
           <h3>on the search for my next chanllegne 🤑</h3>
           <img
             alt="my avater"

@@ -11,11 +11,6 @@
   z-index: 5;
 }
 
-main {
-  /* margin-top: 4rem; */
-  background: black;
-}
-
 @media (min-width: 768px) {
   .main-header {
     justify-content: space-between;

@@ -3,6 +3,11 @@
   font-family: 'Syne Mono', monospace;
 }
 
+main {
+  /* margin-top: 4rem; */
+  background: black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
