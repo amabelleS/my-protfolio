@@ -72,13 +72,15 @@ const About = () => {
       </div>
 
       <div className="content-wrapper">
-        <div className="gradient_from-black">
-          <TextTransition
-            text={TEXTS[index % TEXTS.length]}
-            springConfig={presets.molasses}
-            className="about-text"
-          />
-          <p className="about-main">
+        <div className="gradient_from-black about_intro">
+          <div className="text-wrapper">
+            <TextTransition
+              text={TEXTS[index % TEXTS.length]}
+              springConfig={presets.molasses}
+              className="about-text"
+            />
+          </div>
+          <p>
             With a background as a cognitive psychologist, I’m all about the
             user-experience. I'm passionate to build and design web applications
             that will provide us, as individuals and as the community online
@@ -93,13 +95,13 @@ const About = () => {
         </div>
 
         <div className="gradient_static-shade">
-          <h1>
-            <TextTransition
-              text={TEXTS_2[index % TEXTS_2.length]}
-              springConfig={presets.slow}
-              className="about-text"
-            />
-          </h1>
+          {/* <h1> */}
+          <TextTransition
+            text={TEXTS_2[index % TEXTS_2.length]}
+            springConfig={presets.slow}
+            className="about-text"
+          />
+          {/* </h1> */}
         </div>
         <div className="gradient_to-clear about_exp">
           <h4>
