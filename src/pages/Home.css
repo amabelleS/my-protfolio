@@ -108,8 +108,7 @@
 }
 
 .home_hello {
-  /* margin-top: 4rem; */
-  padding: 5rem 1rem;
+  padding: 5rem 1rem 0;
 }
 
 .home_hello h1 {
@@ -163,25 +162,12 @@
 }
 
 .home_projects_main_list p {
-  color: palegreen;
+  color: aquamarine;
 }
 
 .home_projects_main_list h3 {
   color: aqua;
   animation: wiggle 420ms 2s 11 ease-out none;
-}
-
-/* .home_projects_main_list:hover h3,
-.home_projects_main_list h3:active {
-  text-shadow: 1px 1px 1px gray;
-  transform: skewX(-20deg) scale(1.1);
-} */
-
-.home_fotter {
-  /* height: 100vh; */
-  /* width: 100vw; */
-  /* background-color: rgb(0, 0, 0, 0.42); */
-  /* background-color: transparent; */
 }
 
 .home_fotter h3 {

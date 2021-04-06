@@ -4,16 +4,7 @@ import ReactPlayer from 'react-player';
 
 import Button from '../shared/components/FormElements/Button';
 
-// import styled, { keyframes } from 'styled-components';
-// import { bounceInLeft } from 'react-animations';
-// import './styled.css';
-
 import './Home.css';
-
-// const bounceInLeftAnimation = keyframes`${bounceInLeft}`;
-// const bounceInLeftDiv = styled.div`
-//   animation: 1s ${bounceInLeftAnimation};
-// `;
 
 const Home = () => {
   const [isMuted, setIsMuted] = useState(true);
