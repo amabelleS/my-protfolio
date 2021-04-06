@@ -15,6 +15,7 @@ const Project = (props) => {
         {/* <h1>{props.name}</h1> */}
         <h2 className="projects_info_subtitle">{props.subtitle}</h2>
         <h4 className="projects_info_description">{props.description}</h4>
+        {props.linkBack && props.linkBack}
         {props.url && (
           <div className="project_info_link">
             <a href={props.url}>To {props.name} website</a>

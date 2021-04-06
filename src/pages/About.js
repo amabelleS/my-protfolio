@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import ReactPlayer from 'react-player';
 import TextTransition, { presets } from 'react-text-transition';
@@ -74,11 +75,13 @@ const About = () => {
       <div className="content-wrapper">
         <div className="gradient_from-black about_intro">
           <div className="text-wrapper">
-            <TextTransition
-              text={TEXTS[index % TEXTS.length]}
-              springConfig={presets.molasses}
-              className="about-text"
-            />
+            <h1>
+              <TextTransition
+                text={TEXTS[index % TEXTS.length]}
+                springConfig={presets.molasses}
+                className="about-text"
+              />
+            </h1>
           </div>
           <p>
             With a background as a cognitive psychologist, I’m all about the
@@ -94,15 +97,16 @@ const About = () => {
           </p>
         </div>
 
-        <div className="gradient_static-shade">
-          {/* <h1> */}
-          <TextTransition
-            text={TEXTS_2[index % TEXTS_2.length]}
-            springConfig={presets.slow}
-            className="about-text"
-          />
-          {/* </h1> */}
+        <div className="gradient_static-shade about_skills">
+          <h1>
+            <TextTransition
+              text={TEXTS_2[index % TEXTS_2.length]}
+              springConfig={presets.slow}
+              className="about-text"
+            />
+          </h1>
         </div>
+
         <div className="gradient_to-clear about_exp">
           <h4>
             <TextTransition
@@ -111,21 +115,24 @@ const About = () => {
               className="about-text_exp"
             />
           </h4>
+
           <article className="about_exp_article">
             <h3>
               2020-3/2021 <span>Web developer</span> Willing app, Tel-aviv.
             </h3>
             <p>
-              Building the dashboard for the managment front/react.js app of
-              WillingApp - A free, social application for matches between ppl in
-              need, and ppl who can help. Implemented BOOTSTRAP date-picker, as
-              the user chooses the date-range, calling the server for data for
-              that range. Also implemented canvas.js - wrote it as a functional
-              component, that renders the data received from the server upon
-              loading, according to an API call. As there is no global state for
-              this app, I used useReducer for the state managment.
+              Building the dashboard for WillingApp -
+              <Link
+                to={{
+                  pathname: '/projects',
+                  hash: '.dashboard',
+                }}
+              >
+                More about this ptoject in the projects page
+              </Link>
             </p>
           </article>
+
           <article className="about_exp_article">
             <h3>
               2019-6/2020 <span>Front-End Web development</span> SVcollage,
@@ -136,6 +143,9 @@ const About = () => {
               JavaScript and react.
             </p>
           </article>
+        </div>
+
+        <div className="gradient_clear">
           <article className="about_exp_article">
             <h3>
               2016-now <span>Web developer</span> SheCodes, Udemy, The Web...
@@ -160,7 +170,7 @@ const About = () => {
               government positions, and final evaluation reports.
             </p>
           </article>
-          <article className="about_exp_article">
+          {/* <article className="about_exp_article">
             <h3>
               2009-2012 <span>Research Assistant</span> Haifa Univercity.
             </h3>
@@ -169,10 +179,9 @@ const About = () => {
               and editing articles, administrations, statistical analyzing
               mostly with SPSS, and everything that needed to be done:)
             </p>
-          </article>
+          </article> */}
         </div>
-
-        <div className="gradient_clear">
+        <div className="gradient_from-clear">
           <div className={`disapearing-div ${isShowing ? `` : `hide-div`}`}>
             <h2>If you want to enjoy just the background</h2>
             <h3>A disapearing div</h3>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Project from './Project';
 
@@ -34,13 +35,23 @@ const projects = [
     src: dashbourdUrl,
     subtitle: 'React hooks, Redux & canvas.js',
     description: `Building the dashboard for the management front/react.js app of WillingApp 
-      - A free, social application for matches between ppl in need, and ppl who can help.
+      - A free, social application for matches between people in need, and people who can help.
        Implemented BOOTSTRAP date-picker, as the user chooses the date-range,
         calling the server for data for that range. Also implemented canvas.js
          - I wrote it as a functional component, that renders data received from the
           server upon loading, according to an API call. As there is no global state for
            this app, I used useReducer for the state managment.`,
     url: null,
+    linkBack: (
+      <Link
+        to={{
+          pathname: '/about',
+          hash: '.about_exp',
+        }}
+      >
+        Back to About page experience
+      </Link>
+    ),
   },
   {
     name: 'up-next',
@@ -62,6 +73,7 @@ const ProjectsList = () => {
           githubUrl={project.githubUrl || ''}
           subtitle={project.subtitle}
           description={project.description}
+          linkBack={project.linkBack || ''}
         />
       ))}
     </ul>

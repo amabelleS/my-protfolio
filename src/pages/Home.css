@@ -93,11 +93,29 @@
   background-color: transparent;
 }
 
+.gradient_from-clear {
+  height: 100vh;
+  width: 100vw;
+
+  background: rgba(0, 0, 0, 1);
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.4)
+  );
+  background: -moz-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.4)
+  );
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
 .gradient_to-black {
   height: 100vh;
   width: 100vw;
 
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 1);
   background: -webkit-linear-gradient(
     bottom,
     rgba(0, 0, 0, 1),
