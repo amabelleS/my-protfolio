@@ -4,8 +4,8 @@
   align-items: center;
 }
 .main-navigation__menu-btn {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background: transparent;
   border: none;
   display: flex;
@@ -17,7 +17,7 @@
 
 .main-navigation__menu-btn span {
   display: block;
-  width: 1.8rem;
+  width: 1.5rem;
   height: 2.5px;
   background: #ef476f;
 }
