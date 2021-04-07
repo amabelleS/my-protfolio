@@ -1,45 +1,33 @@
 .projects_content-wrapper {
-  /* .projects_content-wrapper > div { */
   position: relative;
-  /* min-height: 100vh; */
-  /* width: 100vw; */
   height: 100%;
   width: 100%;
+  font-family: 'Syne Mono', monospace;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-
-  font-family: 'Syne Mono', monospace;
-  /* background: url('../assets/dashboad.jpg'); */
 }
 
 .projects_content-wrapper ul {
-  /* margin-block: 0; */
-  /* margin-inline: 0; */
   margin: 0;
   padding: 0;
 }
 
 .projects_img_container {
-  /* align-self: start; */
   width: 40%;
   max-width: 28rem;
   box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
-  /* transform: skew(20deg); */
   overflow: hidden;
   margin: 0 2rem;
 }
 
 .projects_img_container img {
-  /* height: 200px; */
-  /* width: 200px; */
   width: 100%;
   vertical-align: top;
   transform: scale(1);
-  /* transform: skew(-20deg) scale(1); */
 }
 
 .project {
@@ -53,7 +41,6 @@
   justify-content: center;
   color: white;
   width: 100vw;
-  /* height: 100vh; */
   overflow: hidden;
   border-bottom: 1px solid whitesmoke;
 }
@@ -63,9 +50,6 @@
   padding: 0.9rem;
   margin: 0 1rem 0 0;
   max-width: 50%;
-  /* margin-top: 3rem; */
-  /* padding-top: 2rem; */
-  /* z-index: 100; */
 }
 .projects_info_subtitle {
   color: #ef476f;
@@ -88,7 +72,6 @@
       rgba(0, 0, 0, 0.5) 100%
     ),
     url('../assets/dashboad.jpg');
-  /* background: url('../assets/dashboad.jpg'); */
   background-size: cover;
 }
 
@@ -151,11 +134,5 @@
 
   100% {
     transform: translateY(-1rem);
-  }
-}
-
-@media (max-width: 550px) {
-  .project {
-    /* flex-direction: column; */
   }
 }
