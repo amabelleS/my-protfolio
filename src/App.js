@@ -1,6 +1,11 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
 
 import MainNavigation from './shared/components/navigation/MainNavigation';
 // import LoadingSpinner from './shared/components/UIElements/LoadingSpinner';
@@ -44,6 +49,7 @@ function App() {
           <Route exact path="/blog">
             <Blog />
           </Route>
+          <Redirect to="/" />
         </Switch>
       </main>
       {/* </Suspense> */}
