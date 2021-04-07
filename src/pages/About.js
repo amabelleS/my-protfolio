@@ -20,7 +20,7 @@ const TEXTS_2 = [
   'Passion About New Technologies',
   'Team Player',
   'Big Picture Fucus',
-  '..and Attention to Details',
+  'Attention to Details',
 ];
 const TEXTS_3 = [
   'HTML',
@@ -98,13 +98,13 @@ const About = () => {
         </div>
 
         <div className="gradient_static-shade about_skills">
-          <h1>
-            <TextTransition
-              text={TEXTS_2[index % TEXTS_2.length]}
-              springConfig={presets.slow}
-              className="about-text"
-            />
-          </h1>
+          {/* <h1> */}
+          <TextTransition
+            text={TEXTS_2[index % TEXTS_2.length]}
+            springConfig={presets.slow}
+            className="about-text"
+          />
+          {/* </h1> */}
         </div>
 
         <div className="gradient_to-clear about_exp">
@@ -190,7 +190,7 @@ const About = () => {
             {isShowing ? 'Hide' : 'Show'}
           </Button>
         </div>
-        <div className="gradient_to-black home_fotter">
+        <div className="gradient_from-shade_to-black home_fotter">
           <h3>on the search for my next chanllegne 🤑</h3>
           <img
             alt="my avater"
@@ -200,10 +200,7 @@ const About = () => {
               maxWidth: '42vw',
               maxHeight: '42vh',
             }}
-          ></img>
-          {/* <a href={pdfUrl} target="_blank">
-            Download Pdf
-          </a> */}
+          />
         </div>
       </div>
     </React.Fragment>
