@@ -13,14 +13,21 @@
 
 .about_intro {
   padding: 4rem;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about_intro p {
   margin: 1rem 5rem;
   font-size: 1.6rem;
   color: aquamarine;
+}
+
+.about_skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about_exp {
@@ -114,4 +121,15 @@
     margin-left: 0;
     max-width: 100%;
   }
+}
+
+/* text transitoion overrides */
+
+.text-transition {
+  width: 100% !important;
+}
+.text-transition_inner {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
 }
