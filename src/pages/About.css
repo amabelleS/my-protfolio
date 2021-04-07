@@ -2,10 +2,6 @@
   font-size: 3rem;
   color: aqua;
 }
-.about-text_small {
-  font-size: 1.5rem;
-}
-
 .about-text_exp {
   font-size: 1.4rem;
   color: aqua;
@@ -36,7 +32,6 @@
 
 .about_exp a {
   text-decoration: none;
-  /* color: #ffaebc; */
   color: aquamarine;
 }
 .about_exp a:hover {

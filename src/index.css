@@ -10,7 +10,8 @@ html {
 
 body {
   margin: 0;
-  background: #ef476f;
+  background: black;
+  /* background: #ef476f; */
 }
 
 .slide-in-left-enter {
