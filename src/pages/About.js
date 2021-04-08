@@ -91,9 +91,9 @@ const About = () => {
             build together sustainable communities. So, I started to learn how
             to code:) First with the help of the wonderful community SHECODES,
             but mostly self-taught. About a half-year ago or more, I finished a
-            front-end development course, then took an internship, and continued
-            to educate myself with new technologies that I prioritize (so much
-            to choose from){' '}
+            front-end development course, then took an internship. At the same
+            time, I continued to implement new technologies with small and big
+            apps I built.
           </p>
         </div>
 
