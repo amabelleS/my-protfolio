@@ -20,6 +20,10 @@
   .player-background iframe {
     width: 177.78vh;
     height: 100%;
+
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-size: contain; */
   }
 }
 
@@ -47,8 +51,8 @@
 }
 
 .gradient_from-black {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 
   background: rgba(0, 0, 0, 0);
   background: -webkit-linear-gradient(
@@ -65,15 +69,15 @@
 }
 
 .gradient_static-shade {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 
   background: rgba(0, 0, 0, 0.4);
 }
 
 .gradient_to-clear {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 
   background: rgba(0, 0, 0, 0.4);
   background: -webkit-linear-gradient(
@@ -90,14 +94,14 @@
 }
 
 .gradient_clear {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: transparent;
 }
 
 .gradient_from-clear {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 
   background: rgba(0, 0, 0, 1);
   background: -webkit-linear-gradient(
@@ -114,8 +118,8 @@
 }
 
 .gradient_to-black {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 
   background: rgba(0, 0, 0, 1);
   background: -webkit-linear-gradient(
@@ -128,8 +132,8 @@
 }
 
 .gradient_from-shade_to-black {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 
   background: rgba(0, 0, 0, 0.4);
   background: -webkit-linear-gradient(
