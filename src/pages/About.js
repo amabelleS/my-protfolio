@@ -92,7 +92,7 @@ const About = () => {
             to code:) First with the help of the wonderful community SHECODES,
             but mostly self-taught. About a half-year ago or more, I finished a
             front-end development course, then took an internship, and continued
-            to educate myself with new technologies that I praioteriez (so much
+            to educate myself with new technologies that I prioritize (so much
             to choose from){' '}
           </p>
         </div>
