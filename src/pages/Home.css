@@ -12,12 +12,14 @@
 @media (min-aspect-ratio: 16/9) {
   .player-background {
     height: 56.25vw;
+    width: 100%;
   }
 }
 
 @media (max-aspect-ratio: 16 / 9) {
   .player-background iframe {
     width: 177.78vh;
+    height: 100%;
   }
 }
 
