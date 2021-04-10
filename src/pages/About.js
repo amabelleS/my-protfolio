@@ -19,7 +19,7 @@ const TEXTS_2 = [
   'Self taught',
   'Passion About New Technologies',
   'Team Player',
-  'Big Picture Fucus',
+  'Big Picture Focus',
   'Attention to Details',
 ];
 const TEXTS_3 = [
@@ -48,6 +48,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
   //   const [isMuted, setIsMuted] = useState(true);
   const [isShowing, setIsShowing] = useState(true);
+  const [isMuted, setIsMuted] = useState(true);
 
   React.useEffect(() => {
     const intervalId = setInterval(
@@ -61,11 +62,13 @@ const About = () => {
     <React.Fragment>
       <div className="player-background">
         <ReactPlayer
-          // url="https://www.youtube.com/watch?v=Ach8lgF6-AY&ab_channel=KOANSound"
-          url="https://www.youtube.com/watch?v=_hHwz1UWJmI&ab_channel=%D0%9A%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%B0%D1%8F%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%B4%D0%BB%D1%8F%D0%94%D1%83%D1%88%D0%B8"
+          //   url="https://www.youtube.com/watch?v=Ach8lgF6-AY&ab_channel=KOANSound"
+          //   url="https://www.youtube.com/watch?v=_hHwz1UWJmI&ab_channel=%D0%9A%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%B0%D1%8F%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%B4%D0%BB%D1%8F%D0%94%D1%83%D1%88%D0%B8"
+          url="https://youtu.be/8oL6u9eujSU"
+          //   url="https://www.youtube.com/watch?v=CqL6kkMTjRw&list=RDO5RdMvgk8b0&index=10&ab_channel=Psybrations"
           className="react-player"
           playing={true}
-          muted={true}
+          muted={isMuted}
           width="100%"
           height="100%"
           controls={true}
@@ -186,9 +189,18 @@ const About = () => {
             <h2>If you want to enjoy just the background</h2>
             <h3>A disapearing div</h3>
           </div>
-          <Button onClick={() => setIsShowing(!isShowing)}>
-            {isShowing ? 'Hide' : 'Show'}
-          </Button>
+          <div>
+            <Button onClick={() => setIsShowing(!isShowing)}>
+              {isShowing ? 'Hide' : 'Show'}
+            </Button>
+            <Button
+              onClick={() => setIsMuted(!isMuted)}
+              inverse
+              className="home_mute"
+            >
+              {isMuted ? 'Unmute' : 'Mute'}
+            </Button>
+          </div>
         </div>
         <div className="gradient_from-shade_to-black home_fotter">
           <h3>on the search for my next chanllegne 🤑</h3>
