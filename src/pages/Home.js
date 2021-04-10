@@ -25,6 +25,11 @@ const Home = () => {
           width="100%"
           height="100%"
           controls={true}
+          config={{
+            youtube: {
+              playerVars: { showinfo: 1 },
+            },
+          }}
         />
       </div>
       <div className="content-wrapper">

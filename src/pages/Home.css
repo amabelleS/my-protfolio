@@ -1,4 +1,5 @@
 .player-background {
+  background: chartreuse;
   position: fixed;
   overflow: hidden;
   width: 100%;
