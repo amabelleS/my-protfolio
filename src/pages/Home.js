@@ -16,8 +16,6 @@ const Home = () => {
           // url="https://www.youtube.com/watch?v=Ach8lgF6-AY&ab_channel=KOANSound"
           // url="https://www.youtube.com/watch?v=NVb5GV6lntU&ab_channel=PsychedelicTrips"
           // url="https://www.youtube.com/watch?v=gxxqdrrpgZc&ab_channel=poisonteddy%E0%A4%93%E0%A4%AE%E0%A5%8D"
-          // url="https://youtu.be/3pLWskANffo"
-          // url="https://youtu.be/FHVD9ft_ANw"
           // url="https://youtu.be/FHVD9ft_ANw"
           // url="https://youtu.be/4oh7lct04Us"
           url="https://youtu.be/Os5qrLhHQd8"
