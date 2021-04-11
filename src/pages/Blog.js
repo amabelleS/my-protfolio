@@ -19,6 +19,8 @@ const Blog = () => {
         How to make react-player full screan and scale responsively to mobile
         views:
       </h4>
+      <h2>Up Next - Working with canvas.js - make it functional:)</h2>
+      <h2>Up Next - Why you dont need redux:)</h2>
     </div>
   );
 };
