@@ -5,7 +5,8 @@ import Project from './Project';
 
 import dashbourdUrl from '../../../assets/dashboad.jpg';
 import storagesFront from '../../../assets/storages-front.png';
-import communityGardens from '../../../assets/community7.jpeg';
+// import communityGardens from '../../../assets/community7.jpeg';
+import myNotes from '../../../assets/my-notes.png';
 import crChat from '../../../assets/crChat.png';
 
 const projects = [
@@ -55,10 +56,14 @@ const projects = [
   },
   {
     name: 'up-next',
-    src: communityGardens,
-    subtitle: 'Community Gardens',
-    description: 'My next personal project. Want to collaborate?',
+    src: myNotes,
+    subtitle: 'Learning Typscript, and more:)',
+    description: `Started as a practice react app for learning typescript. The user can add a text or code editor,
+      write code (or text snipets), click on submit, then we take the code, transpile and bundle it with 
+      esbuils in the browser, and show the results.
+      Next, implemnting lerna for building different packeges for a cli and local-api, and publishing all to npm`,
     url: null,
+    githubUrl: 'https://github.com/amabelleS/jbook',
   },
 ];
 

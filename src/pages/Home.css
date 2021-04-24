@@ -7,6 +7,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: 'none';
+
+  /* width: auto; */
+  /* height: auto; */
 }
 
 @media (min-aspect-ratio: 16/9) {

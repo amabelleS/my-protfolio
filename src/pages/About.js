@@ -65,7 +65,8 @@ const About = () => {
           //   url="https://www.youtube.com/watch?v=Ach8lgF6-AY&ab_channel=KOANSound"
           //   url="https://www.youtube.com/watch?v=_hHwz1UWJmI&ab_channel=%D0%9A%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%B0%D1%8F%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%B4%D0%BB%D1%8F%D0%94%D1%83%D1%88%D0%B8"
           //   url="https://youtu.be/8oL6u9eujSU"
-          url="https://youtu.be/igzt3cXw274"
+          url="https://youtu.be/3pLWskANffo"
+          //   url="https://youtu.be/igzt3cXw274"
           className="react-player"
           playing={true}
           muted={isMuted}
