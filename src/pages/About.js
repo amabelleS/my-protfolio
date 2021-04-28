@@ -119,70 +119,71 @@ const About = () => {
               className="about-text_exp"
             />
           </h4>
+          <div className="exp_container">
+            <article className="about_exp_article">
+              <h3>
+                2020-3/2021 <span>Web developer</span> Willing app, Tel-aviv.
+              </h3>
+              <p>
+                Building the dashboard for WillingApp -
+                <Link
+                  to={{
+                    pathname: '/projects',
+                    hash: '.dashboard',
+                  }}
+                >
+                  More about this ptoject in the projects page
+                </Link>
+              </p>
+            </article>
 
-          <article className="about_exp_article">
-            <h3>
-              2020-3/2021 <span>Web developer</span> Willing app, Tel-aviv.
-            </h3>
-            <p>
-              Building the dashboard for WillingApp -
-              <Link
-                to={{
-                  pathname: '/projects',
-                  hash: '.dashboard',
-                }}
-              >
-                More about this ptoject in the projects page
-              </Link>
-            </p>
-          </article>
-
-          <article className="about_exp_article">
-            <h3>
-              2019-6/2020 <span>Front-End Web development</span> SVcollage,
-              Tel-aviv.
-            </h3>
-            <p>
-              Implemented during the course by small web-apps with Html, CSS,
-              JavaScript and react.
-            </p>
-          </article>
-          <article className="about_exp_article">
-            <h3>
-              2016-now <span>Web developer</span> SheCodes, Udemy, The Web...
-            </h3>
-            <p>
-              Since the course ended, I’ve been learning from the web the
-              back-end: node.js, mongoDB, express, react, redux, mob-x,
-              react-query and other state management tools. I have implemented
-              charts in the internship, directed graphs on a side project, and
-              learned vue.js in a few days. I would really love to find a place
-              where my capabilities will come at hand:) Next steps, Docker &
-              Kubernetes. Or maybe typescript and Anjular?
-            </p>
-          </article>
-          <article className="about_exp_article">
-            <h3>
-              2015-2016 <span>Occupational psychologist</span> Keinan-Shefi,
-              Tel-Aviv.
-            </h3>
-            <p>
-              Personal interviews, group dynamic tests, evaluation days for
-              government positions, and final evaluation reports.
-            </p>
-          </article>
-          <article className="about_exp_article">
-            <h3>
-              2009-2012 <span>Research Assistant</span> Haifa Univercity.
-            </h3>
-            <p>
-              An international research, on eyewitness credibility. Summarizing
-              and editing articles, administrations, statistical analyzing
-              mostly with SPSS, and everything that needed to be done:)
-            </p>
-          </article>
+            <article className="about_exp_article">
+              <h3>
+                2019-6/2020 <span>Front-End Web development</span> SVcollage,
+                Tel-aviv.
+              </h3>
+              <p>
+                Implemented during the course by small web-apps with Html, CSS,
+                JavaScript and react.
+              </p>
+            </article>
+            <article className="about_exp_article">
+              <h3>
+                2016-now <span>Web developer</span> SheCodes, Udemy, The Web...
+              </h3>
+              <p>
+                Since the course ended, I’ve been learning from the web the
+                back-end: node.js, mongoDB, express, react, redux, mob-x,
+                react-query and other state management tools. I have implemented
+                charts in the internship, directed graphs on a side project, and
+                learned vue.js in a few days. I would really love to find a
+                place where my capabilities will come at hand:) Next steps,
+                Docker & Kubernetes. Or maybe typescript and Anjular?
+              </p>
+            </article>
+            <article className="about_exp_article">
+              <h3>
+                2015-2016 <span>Occupational psychologist</span> Keinan-Shefi,
+                Tel-Aviv.
+              </h3>
+              <p>
+                Personal interviews, group dynamic tests, evaluation days for
+                government positions, and final evaluation reports.
+              </p>
+            </article>
+            <article className="about_exp_article">
+              <h3>
+                2009-2012 <span>Research Assistant</span> Haifa Univercity.
+              </h3>
+              <p>
+                An international research, on eyewitness credibility.
+                Summarizing and editing articles, administrations, statistical
+                analyzing mostly with SPSS, and everything that needed to be
+                done:)
+              </p>
+            </article>
+          </div>
         </div>
-
         {/* <div className="gradient_clear"></div> */}
 
         <div className="gradient_from-clear">
