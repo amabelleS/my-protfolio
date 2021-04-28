@@ -53,6 +53,7 @@
   display: flex;
   margin: 0 2rem;
   justify-content: space-between;
+  align-items: center;
 }
 
 .about_exp_article p {
