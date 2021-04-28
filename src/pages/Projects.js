@@ -47,20 +47,6 @@ const Projects = () => {
             className="projects-text"
           />
         </div>
-        {/* <div className="project project_storages">
-          <div className="projects_img_container">
-            <img src={projects[0].src} alt="dashbourd" />
-          </div>
-          <div className="projects_info">
-            <h1>{projects[0].name}</h1>
-            <h3 className="projects_info_subtitle">
-              {projects[0].discription}
-            </h3>
-            <a href={projects[0].url}>{projects[0].name}</a>
-          </div>
-        </div>
-
-       */}
       </div>
     </React.Fragment>
   );

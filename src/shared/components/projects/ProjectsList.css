@@ -7,6 +7,15 @@
     url('../../../assets/storages-back.png');
   background-size: cover;
 }
+.project--my-js-snippets {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../../assets/my-notes.png');
+  background-size: cover;
+}
 
 .project--internship {
   background: linear-gradient(
@@ -36,7 +45,7 @@
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url('../../../assets/my-notes.png');
+    url('../../../assets/e-commerce.png');
 
   background-size: cover;
 }

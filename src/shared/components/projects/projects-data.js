@@ -2,11 +2,23 @@ import { Link } from 'react-router-dom';
 
 import dashbourdUrl from '../../../assets/dashboad.jpg';
 import storagesFront from '../../../assets/storages-front.png';
-// import communityGardens from '../../../assets/community7.jpeg';
 import myNotes from '../../../assets/my-notes.png';
 import crChat from '../../../assets/crChat.png';
+import eCommerce from '../../../assets/e-commerce.png';
 
 export const projects = [
+  {
+    name: 'my-js-snippets',
+    src: myNotes,
+    subtitle: 'NPM organization',
+    description: `A node cli that start a web service with addvance javascript sandbox.
+    The tool enables the user to write ES-07 code (or text snipets) in the browser, 
+    showing the results in a preview window and saving them to the local file system.
+    started as an expriment for learning typescript (with react and redux) and implementing Esbuils - 
+    An extremely fast JavaScript bundler. Also, managed mono-repo with lerna.`,
+    githubUrl: 'https://github.com/amabelleS/my-js-snippets',
+    npmUrl: 'https://www.npmjs.com/package/my-js-snippets',
+  },
   {
     name: 'our-storages',
     src: storagesFront,
@@ -53,13 +65,11 @@ export const projects = [
   },
   {
     name: 'up-next',
-    src: myNotes,
-    subtitle: 'Learning Typscript, and more:)',
-    description: `Started as a practice react app for learning typescript. The user can add a text or code editor,
-      write code (or text snipets), click on submit, then we take the code, transpile and bundle it with 
-      esbuils in the browser, and show the results.
-      Next, implemnting lerna for building different packeges for a cli and local-api, and publishing all to npm`,
+    src: eCommerce,
+    subtitle: 'E-commerce application, learning graphql, and more:)',
+    description: `A massive E-commerce app with Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase.
+    In Development`,
     url: null,
-    githubUrl: 'https://github.com/amabelleS/jbook',
+    githubUrl: 'https://github.com/amabelleS/e-commerce',
   },
 ];
