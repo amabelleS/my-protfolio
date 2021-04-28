@@ -64,6 +64,12 @@ const Home = () => {
             <h1 className="home_projects_main_title">My projects</h1>
             <div className="home_projects_main_list">
               <article>
+                <a href="https://www.npmjs.com/package/my-js-snippets">
+                  <h3>my-js-snippets</h3>
+                </a>
+                <p>NPM packages - An interactive coding enviroment</p>
+              </article>
+              <article>
                 <a href="https://community-storages.web.app/">
                   <h3>Community Storages</h3>
                 </a>
