@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import dashbourdUrl from '../../../assets/dashboad.jpg';
 import storagesFront from '../../../assets/storages-front.png';
-import myNotes from '../../../assets/my-notes.png';
+import myNotes from '../../../assets/my-notes1.png';
 import crChat from '../../../assets/crChat.png';
 import eCommerce from '../../../assets/e-commerce.png';
 
@@ -11,11 +11,12 @@ export const projects = [
     name: 'my-js-snippets',
     src: myNotes,
     subtitle: 'NPM organization',
-    description: `A node cli that start a web service with addvance javascript sandbox.
-    The tool enables the user to write ES-07 code (or text snipets) in the browser, 
-    showing the results in a preview window and saving them to the local file system.
-    started as an expriment for learning typescript (with react and redux) and implementing Esbuils - 
-    An extremely fast JavaScript bundler. Also, managed mono-repo with lerna.`,
+    description: `A node cli that start a web service with advanced javascript sandbox (an interactive 
+    coding enviroment). The tool enables the user to write ES-07 code snipets, see it excuted in
+    a preview window in the browser, and write comprehesive documentation using markdown. All the changes
+    are saved to the local file system.
+    This Application was developed with typescript, react, redux, node.js, express, and more. 
+    Implementing Esbuils - An extremely fast JavaScript bundler. Managed a mono-repo with lerna.`,
     githubUrl: 'https://github.com/amabelleS/my-js-snippets',
     npmUrl: 'https://www.npmjs.com/package/my-js-snippets',
   },

@@ -28,7 +28,7 @@ const Project = (props) => {
         )}
         {props.npmUrl && (
           <div className="project_info_link">
-            <a href={props.githubUrl}>To npm registry</a>
+            <a href={props.npmUrl}>To npm registry</a>
           </div>
         )}
       </div>
