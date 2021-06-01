@@ -33,11 +33,14 @@ const TEXTS_3 = [
   'MongoDB',
   'Mongoose',
   'Git & gitHub',
-  //   'GitHub',
+  'Lerna',
+  'Docker',
   'Vue.js',
   'Typescript',
   'Firebase',
   'VSCode',
+  'Styled-components',
+  'Storybook',
   'Canvas.js',
   'Directed graphs',
 ];
@@ -53,7 +56,7 @@ const About = () => {
   React.useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
-      2000 // every 3 seconds
+      1500 // every 1.5 seconds
     );
     return () => clearTimeout(intervalId);
   }, []);
@@ -122,10 +125,18 @@ const About = () => {
           <div className="exp_container">
             <article className="about_exp_article">
               <h3>
-                2020-3/2021 <span>Web developer</span> Willing app, Tel-aviv.
+                5/2021 <span>Full-Stack developer</span> <a href='https://www.novvo.ai/about'>Novvo</a>, Remote.
               </h3>
               <p>
-                Building the dashboard for WillingApp -
+                Developing the front-end of a new startup company with react, styled-components, storybook, docker, and more.
+              </p>
+            </article>
+            <article className="about_exp_article">
+              <h3>
+                2020-3/2021 <span>Front-End developer</span> Willing app, Tel-aviv.
+              </h3>
+              <p>
+                Building the dashboard for WillingApp with react -
                 <Link
                   to={{
                     pathname: '/projects',

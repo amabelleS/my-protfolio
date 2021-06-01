@@ -2,6 +2,7 @@ import React from 'react';
 
 import Project from './Project';
 import { projects } from './projects-data';
+
 const ProjectsList = () => {
   return (
     <ul>

@@ -20,8 +20,9 @@ const Home = () => {
           // url="https://youtu.be/4oh7lct04Us"
           // url="https://youtu.be/3pLWskANffo"
 
-          url="https://youtu.be/Os5qrLhHQd8"
           // url="https://www.youtube.com/watch?v=4xKRQ0thuew&ab_channel=CloZee"
+          url="https://youtu.be/Os5qrLhHQd8"
+          // url="https://www.youtube.com/watch?v=zXTpASSd9xE&ab_channel=Fractaluniverse"
           className="react-player"
           playing={true}
           muted={isMuted}
@@ -61,7 +62,7 @@ const Home = () => {
 
         <div className="gradient_to-clear home_project">
           <div className="home_projects_main">
-            <h1 className="home_projects_main_title">My projects</h1>
+            <h1 className="home_projects_main_title">My Projects</h1>
             <div className="home_projects_main_list">
               <article>
                 <a href="https://www.npmjs.com/package/my-js-snippets">
