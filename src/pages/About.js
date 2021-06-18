@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import ReactPlayer from 'react-player';
@@ -53,7 +53,11 @@ const About = () => {
   const [isShowing, setIsShowing] = useState(true);
   const [isMuted, setIsMuted] = useState(true);
 
-  React.useEffect(() => {
+  useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
+  useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
       1500 // every 1.5 seconds

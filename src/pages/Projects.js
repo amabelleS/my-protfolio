@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import TextTransition, { presets } from 'react-text-transition';
 
@@ -18,6 +18,10 @@ const TEXTS = [
 
 const Projects = () => {
   const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
   React.useEffect(() => {
     const intervalId = setInterval(

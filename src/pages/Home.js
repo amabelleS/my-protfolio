@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import ReactPlayer from 'react-player';
 
@@ -8,6 +8,10 @@ import './Home.css';
 
 const Home = () => {
   const [isMuted, setIsMuted] = useState(true);
+
+  useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
   return (
     <React.Fragment>
