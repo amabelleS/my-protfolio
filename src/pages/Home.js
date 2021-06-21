@@ -97,7 +97,7 @@ const Home = () => {
           <Button to="/blog">My blog</Button>
         </div>
         <div className="gradient_to-black home_fotter">
-          <h3>on the search for my next chanllegne 🤑</h3>
+          <h3>on the search for my next challenge 🤑</h3>
           <img
             alt="my avater"
             src="https://avatars.githubusercontent.com/u/45571546?v=4"

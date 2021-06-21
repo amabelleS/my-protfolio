@@ -6,9 +6,9 @@ const Page = ({ children }) => {
     }, [])
 
     return (
-        <div>
-            
-        </div>
+        <main>
+            {children}
+        </main>
     )
 }
 
