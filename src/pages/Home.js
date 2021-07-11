@@ -42,7 +42,7 @@ const Home = () => {
       </div>
       <div className="content-wrapper">
         <div className="gradient_from-black home_hello">
-          <h1>Hello, Word. I’m Amabelle.</h1>
+          <h1>Hello, World. I’m Amabelle.</h1>
           <h2>Hover Over</h2>
           <div className="home_btn">
             <Button
@@ -56,9 +56,9 @@ const Home = () => {
         </div>
 
         <div className="gradient_static-shade home_about">
-          <h2 className="slide-in-left">A Web Developer</h2>
-          <h2 className="slide-in-right">A user experience designer</h2>
-          <h2 className="slide-in-left">An ideas actualizer</h2>
+          <h1 className="slide-in-left">A Web Developer</h1>
+          <h1 className="slide-in-right">A user experience designer</h1>
+          <h1 className="slide-in-left">An ideas actualizer</h1>
           <div className="home_btn">
             <Button to="/about">More about me</Button>
           </div>
@@ -70,19 +70,19 @@ const Home = () => {
             <div className="home_projects_main_list">
               <article>
                 <a href="https://www.npmjs.com/package/my-js-snippets">
-                  <h3>my-js-snippets</h3>
+                  <h2>my-js-snippets</h2>
                 </a>
                 <p>NPM packages - An interactive coding enviroment</p>
               </article>
               <article>
                 <a href="https://community-storages.web.app/">
-                  <h3>Community Storages</h3>
+                  <h2>Community Storages</h2>
                 </a>
                 <p>Mern-app for the managment of storages</p>
               </article>
               <article>
                 <a href="https://live-chat-24679.web.app/">
-                  <h3>Live Chat</h3>
+                  <h2>Live Chat</h2>
                 </a>
                 <p>Vue.js-app, with Firebase and FireStore</p>
               </article>
@@ -93,7 +93,7 @@ const Home = () => {
           </Button>
         </div>
         <div className="gradient_clear">
-          <h3>My Blog - Under construction..</h3>
+          <h1>My Blog - Under construction..</h1>
           <Button to="/blog">My blog</Button>
         </div>
         <div className="gradient_to-black home_fotter">

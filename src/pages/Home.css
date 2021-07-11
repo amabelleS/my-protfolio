@@ -174,11 +174,11 @@
   transform: translateX(-200%);
 }
 
-.home_about h2 {
+.home_about h1 {
   text-transform: capitalize;
   color: aqua;
 }
-.home_about:hover h2 {
+.home_about:hover h1 {
   animation: flip 1s ease-out forwards;
 }
 
@@ -214,7 +214,7 @@
   color: aquamarine;
 }
 
-.home_projects_main_list h3 {
+.home_projects_main_list h2 {
   color: aqua;
   animation: wiggle 420ms 2s 11 ease-out none;
 }
