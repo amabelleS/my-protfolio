@@ -5,6 +5,9 @@ import storagesFront from '../../../assets/storages-front.png';
 import myNotes from '../../../assets/my-notes1.png';
 import crChat from '../../../assets/crChat.png';
 import eCommerce from '../../../assets/e-commerce.png';
+import ticTacToe from '../../../assets/tic-tac-toe.png';
+import recipes from '../../../assets/angular-recipes.png';
+import network from '../../../assets/angular-network.png';
 
 export const projects = [
   {
@@ -63,6 +66,33 @@ export const projects = [
         Back to About page experience
       </Link>
     ),
+  },
+  {
+    name: 'recipes',
+    src: recipes,
+    subtitle: 'IN DEVELOPMENT',
+    description: `Implemnting angular with practice apps. Styled with Bootstrap.
+    PWA for storing your favorite recipes and their ingredients`,
+    // url: 'https://tic-tac-toe-91637.web.app',
+    githubUrl: 'https://github.com/amabelleS/My-recipes',
+  },
+  {
+    name: 'network',
+    src: network,
+    subtitle: 'IN DEVELOPMENT: MEAN-STACK',
+    description: `Implemnting angular with practice apps. Styled with Bootstrap.
+    Thinking about developing the this app for community gardeners in the future`,
+    // url: 'https://tic-tac-toe-91637.web.app',
+    githubUrl: 'https://github.com/amabelleS/My-network',
+  },
+  {
+    name: 'tic-tac-toe',
+    src: ticTacToe,
+    subtitle: 'Angular - Practice',
+    description: `An angular practice app - I wanted to see how easy it is to build a PWA with angular. Deployed with firebase. 
+      Implemented Nebular for styles.`,
+    url: 'https://tic-tac-toe-91637.web.app',
+    // githubUrl: 'https://github.com/amabelleS/Live-Chat',
   },
   {
     name: 'up-next',

@@ -28,6 +28,8 @@ const TEXTS_3 = [
   'JS',
   'React.js',
   'React Hooks',
+  'Vue.js',
+  'Angular',
   'Node.js',
   'Express.js',
   'MongoDB',
@@ -35,7 +37,6 @@ const TEXTS_3 = [
   'Git & gitHub',
   'Lerna',
   'Docker',
-  'Vue.js',
   'Typescript',
   'Firebase',
   'VSCode',
@@ -54,8 +55,8 @@ const About = () => {
   const [isMuted, setIsMuted] = useState(true);
 
   useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     const intervalId = setInterval(
@@ -75,8 +76,6 @@ const About = () => {
           //   url="https://youtu.be/igzt3cXw274"
           // url="https://youtu.be/3pLWskANffo"
           url="https://www.youtube.com/watch?v=vgdA0lAtu2A"
-
-
           className="react-player"
           playing={true}
           muted={isMuted}
@@ -104,7 +103,7 @@ const About = () => {
             spaces that will help us manage ourselves, share knowledge, and
             build together sustainable communities. So, I started to learn how
             to code:) First with the help of the wonderful community SHECODES,
-            but mostly self-taught. About a half-year ago or more, I finished a
+            but mostly self-taught. About a year ago or more, I finished a
             front-end development course, then took an internship. At the same
             time, I continued to implement new technologies with small and big
             apps I built.
@@ -132,15 +131,18 @@ const About = () => {
           <div className="exp_container">
             <article className="about_exp_article">
               <h3>
-                5/2021 <span>Full-Stack developer</span> <a href='https://www.novvo.ai/about'>Novvo</a>, Remote.
+                5/2021 <span>Full-Stack developer</span>{' '}
+                <a href="https://www.novvo.ai/about">Novvo</a>, Remote.
               </h3>
               <p>
-                Developing the front-end of a new startup company with react, styled-components, storybook, docker, and more.
+                Developing the front-end of a new startup company with react,
+                styled-components, storybook, docker, and more.
               </p>
             </article>
             <article className="about_exp_article">
               <h3>
-                2020-3/2021 <span>Front-End developer</span> Willing app, Tel-aviv.
+                2020-3/2021 <span>Front-End developer</span> Willing app,
+                Tel-aviv.
               </h3>
               <p>
                 Building the dashboard for WillingApp with react -

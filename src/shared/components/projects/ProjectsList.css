@@ -28,6 +28,17 @@
   background-size: cover;
 }
 
+.project--tic-tac-toe {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../../assets/tic-tac-toe.png');
+
+  background-size: cover;
+}
+
 .project--chat-room {
   background: linear-gradient(
       0deg,
@@ -35,6 +46,26 @@
       rgba(0, 0, 0, 0.5) 100%
     ),
     url('../../../assets/crLogin.png');
+
+  background-size: cover;
+}
+.project--recipes {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../../assets/angular-recipes.png');
+
+  background-size: cover;
+}
+.project--network {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../../assets/angular-network.png');
 
   background-size: cover;
 }

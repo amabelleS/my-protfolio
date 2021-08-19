@@ -10,8 +10,8 @@ const Home = () => {
   const [isMuted, setIsMuted] = useState(true);
 
   useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <React.Fragment>
