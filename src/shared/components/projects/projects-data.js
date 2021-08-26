@@ -68,12 +68,13 @@ export const projects = [
     ),
   },
   {
-    name: 'recipes',
+    name: 'my-recipes',
     src: recipes,
-    subtitle: 'IN DEVELOPMENT',
-    description: `Implemnting angular with practice apps. Styled with Bootstrap.
-    PWA for storing your favorite recipes and their ingredients`,
-    // url: 'https://tic-tac-toe-91637.web.app',
+    subtitle: 'My-Rcipes',
+    description: `Web app for storing your favorite recipes and their ingredients. 
+    Firebase real-time database for the backend and for deployment. Styled with Bootstrap.
+    I'm learnig angular and this app need some improvments, so it's still in development`,
+    url: 'https://my-recipes-21fec.web.app',
     githubUrl: 'https://github.com/amabelleS/My-recipes',
   },
   {
