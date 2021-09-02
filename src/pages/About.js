@@ -75,7 +75,8 @@ const About = () => {
           //   url="https://youtu.be/8oL6u9eujSU"
           //   url="https://youtu.be/igzt3cXw274"
           // url="https://youtu.be/3pLWskANffo"
-          url="https://www.youtube.com/watch?v=vgdA0lAtu2A"
+          // url="https://www.youtube.com/watch?v=vgdA0lAtu2A"
+          url="https://www.youtube.com/watch?v=-s8cW--gI68"
           className="react-player"
           playing={true}
           muted={isMuted}
