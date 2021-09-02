@@ -209,6 +209,10 @@ const About = () => {
 
         <div className="gradient_from-clear">
           <div className={`disapearing-div ${isShowing ? `` : `hide-div`}`}>
+            <h3>
+              CloZee x Android Jones x MicrodoseVR Presents: Neon Jungle Audio
+              Visual Experience
+            </h3>
             <h2>If you want to enjoy just the background</h2>
             <h3>A disapearing div</h3>
           </div>
