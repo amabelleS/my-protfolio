@@ -28,6 +28,8 @@ const TEXTS_3 = [
   'JS',
   'React.js',
   'React Hooks',
+  'Styled-components',
+  'Cypress',
   'Vue.js',
   'Angular',
   'Node.js',
@@ -40,10 +42,11 @@ const TEXTS_3 = [
   'Typescript',
   'Firebase',
   'VSCode',
-  'Styled-components',
   'Storybook',
   'Canvas.js',
   'Directed graphs',
+  'Python',
+  'sql',
 ];
 
 // const pdfUrl = './Amabelle_Trachtenberg_cv-2021.pdf';
