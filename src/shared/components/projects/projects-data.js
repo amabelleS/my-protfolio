@@ -9,6 +9,7 @@ import ticTacToe from '../../../assets/tic-tac-toe.png';
 import recipes from '../../../assets/angular-recipes.png';
 import network from '../../../assets/angular-network.png';
 import pplFinder from '../../../assets/ppl-finder-home.png';
+import images from '../../../assets/favorite-images-home.png';
 
 export const projects = [
   {
@@ -21,21 +22,18 @@ export const projects = [
     are saved to the local file system.
     This Application was developed with typescript, react, redux, node.js, express, and more. 
     Implementing Esbuils - An extremely fast JavaScript bundler. Managed a mono-repo with lerna.`,
-    githubUrl: ' https://github.com/amabelleS/my-favorite-images',
-    npmUrl: 'https://my-favorite-images.web.app',
+    githubUrl: 'https://github.com/amabelleS/my-js-snippets',
+    npmUrl: 'https://www.npmjs.com/package/my-js-snippets',
   },
   {
     name: 'my-favorite-images',
-    src: myNotes,
-    subtitle: 'NPM organization',
-    description: `A node cli that start a web service with advanced javascript sandbox (an interactive 
-    coding enviroment). The tool enables the user to write ES-07 code snipets, see it excuted in
-    a preview window in the browser, and write comprehesive documentation using markdown. All the changes
-    are saved to the local file system.
-    This Application was developed with typescript, react, redux, node.js, express, and more. 
-    Implementing Esbuils - An extremely fast JavaScript bundler. Managed a mono-repo with lerna.`,
-    githubUrl: 'https://github.com/amabelleS/my-js-snippets',
-    npmUrl: 'https://www.npmjs.com/package/my-js-snippets',
+    src: images,
+    subtitle: 'React, styled-components & cypress',
+    description: `A React app, built with styled-components. Used axios and hooks for fetching data from pixabay,
+    context and local-storage for favorites state manegment. useReducer, useMemo, portals, and more. 
+    E2E testing with cypress. Deployed with firebase.`,
+    url: 'https://my-favorite-images.web.app',
+    githubUrl: ' https://github.com/amabelleS/my-favorite-images',
   },
   {
     name: 'our-storages',

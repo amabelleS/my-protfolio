@@ -17,6 +17,16 @@
   background-size: cover;
 }
 
+.project--my-favorite-images {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../../assets/favorite-images-search.png');
+
+  background-size: cover;
+}
 .project--internship {
   background: linear-gradient(
       0deg,
