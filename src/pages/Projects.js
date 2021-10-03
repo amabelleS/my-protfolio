@@ -8,20 +8,14 @@ import nextProjectsFront from '../assets/community7.jpeg';
 
 import './Projects.css';
 
-const TEXTS = [
-  'Typescript - implement with react',
-  'Angular',
-  'graphql',
-  'Community Gardens',
-  // 'Community Gardens',
-];
+const TEXTS = ['Python', 'sql', 'graphql', 'Community Gardens'];
 
 const Projects = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   React.useEffect(() => {
     const intervalId = setInterval(
@@ -39,7 +33,6 @@ const Projects = () => {
         <div className="project project_up-next">
           <div className="projects_info projects_info_subtitle">
             <h1>Next Projects</h1>
-            {/* <h3 className="projects_info_subtitle">desc</h3> */}
           </div>
           <div className="projects_img_container next">
             <img src={nextProjectsFront} alt="next-project" />
