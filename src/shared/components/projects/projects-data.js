@@ -8,10 +8,24 @@ import eCommerce from '../../../assets/e-commerce.png';
 import ticTacToe from '../../../assets/tic-tac-toe.png';
 import recipes from '../../../assets/angular-recipes.png';
 import network from '../../../assets/angular-network.png';
+import pplFinder from '../../../assets/ppl-finder-home.png';
 
 export const projects = [
   {
     name: 'my-js-snippets',
+    src: myNotes,
+    subtitle: 'NPM organization',
+    description: `A node cli that start a web service with advanced javascript sandbox (an interactive 
+    coding enviroment). The tool enables the user to write ES-07 code snipets, see it excuted in
+    a preview window in the browser, and write comprehesive documentation using markdown. All the changes
+    are saved to the local file system.
+    This Application was developed with typescript, react, redux, node.js, express, and more. 
+    Implementing Esbuils - An extremely fast JavaScript bundler. Managed a mono-repo with lerna.`,
+    githubUrl: ' https://github.com/amabelleS/my-favorite-images',
+    npmUrl: 'https://my-favorite-images.web.app',
+  },
+  {
+    name: 'my-favorite-images',
     src: myNotes,
     subtitle: 'NPM organization',
     description: `A node cli that start a web service with advanced javascript sandbox (an interactive 
@@ -43,6 +57,16 @@ export const projects = [
       'This project is utilized with firebase authentication, and cloud firestore for the server side.',
     url: 'https://live-chat-24679.web.app/',
     githubUrl: 'https://github.com/amabelleS/Live-Chat',
+  },
+  {
+    name: 'ppl-finder',
+    src: pplFinder,
+    subtitle: 'React.js app',
+    description: `React app with styled-component and material-ui, Making an api request to randomuser.me, infinity scrolling, 
+      checkboxes for filtering by city, Favorites page with an option to add free text to each user, and search him 
+      by his name, city or the users input text. The list can be exported to a CSV file`,
+    url: 'https://amabelles.github.io/PplFinder',
+    githubUrl: 'https://github.com/amabelleS/PplFinder',
   },
   {
     name: 'internship',

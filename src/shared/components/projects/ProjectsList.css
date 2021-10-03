@@ -49,6 +49,18 @@
 
   background-size: cover;
 }
+
+.project--ppl-finder {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../../assets/ppl-finder-fav.png');
+
+  background-size: cover;
+}
+
 .project--my-recipes {
   background: linear-gradient(
       0deg,
