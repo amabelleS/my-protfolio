@@ -56,8 +56,8 @@ const Home = () => {
         </div>
 
         <div className="gradient_static-shade home_about">
-          <h1 className="slide-in-left">A Web Developer</h1>
-          <h1 className="slide-in-right">A user experience designer</h1>
+          <h1 className="slide-in-left">Full-Stack Developer</h1>
+          {/* <h1 className="slide-in-right">A UI/UX Designer</h1> */}
           <h1 className="slide-in-left">An ideas actualizer</h1>
           <div className="home_btn">
             <Button to="/about">More about me</Button>
