@@ -26,6 +26,14 @@
   font-size: 1.3rem;
 }
 
+.main-navigation_menu .logo {
+  /* margin: 2rem; */
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 a.main-navigation__title {
   font-family: cursive;
   text-decoration: none;

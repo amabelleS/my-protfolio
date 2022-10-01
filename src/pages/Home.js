@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import ReactPlayer from 'react-player';
 
 import Button from '../shared/components/FormElements/Button';
+import logo from '../assets/logo6.png'
+import logoN from '../assets/logoN.jpeg';
 
 import './Home.css';
 
@@ -100,7 +102,8 @@ const Home = () => {
           <h3>on the search for my next challenge 🤑</h3>
           <img
             alt="my avater"
-            src="https://avatars.githubusercontent.com/u/45571546?v=4"
+            src={logo}
+            // src="https://avatars.githubusercontent.com/u/45571546?v=4"
             style={{
               clipPath: 'circle(50% at 50% 50%)',
               maxWidth: '42vw',

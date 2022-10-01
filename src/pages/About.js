@@ -5,6 +5,7 @@ import ReactPlayer from 'react-player';
 import TextTransition, { presets } from 'react-text-transition';
 import Button from '../shared/components/FormElements/Button';
 
+import logo from '../assets/logo6.png';
 // import Button from '../shared/components/FormElements/Button';
 
 import './About.css';
@@ -236,6 +237,7 @@ const About = () => {
           <h3>on the search for my next challenge 🤑</h3>
           <img
             alt="my avater"
+            // src={logo}
             src="https://avatars.githubusercontent.com/u/45571546?v=4"
             style={{
               clipPath: 'circle(50% at 50% 50%)',

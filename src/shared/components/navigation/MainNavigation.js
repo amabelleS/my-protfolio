@@ -6,6 +6,10 @@ import NavLinks from './NavLinks';
 import SideDrawer from './SideDrawer';
 import Backdrop from '../UIElements/Backdrop';
 
+import logo from '../../../assets/logo6.png'
+import logoN from '../../../assets/logoN.jpeg'
+import logofs from '../../../assets/logo-fs.png'
+
 import './MainNavigation.css';
 
 export const MainNavigation = (props) => {
@@ -38,7 +42,7 @@ export const MainNavigation = (props) => {
             <span />
             <span />
           </button>
-
+          <img className='logo' src={logo} style={{marginLeft: '0.7rem'}}/>
           <NavLink
             className="main-navigation__title"
             to="/"
