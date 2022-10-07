@@ -6,8 +6,8 @@ import NavLinks from './NavLinks';
 import SideDrawer from './SideDrawer';
 import Backdrop from '../UIElements/Backdrop';
 
-import logo from '../../../assets/logo6.png'
-import logoN from '../../../assets/logoN.jpeg'
+import logo from '../../../assets/logo9.png'
+// import temp from '../../../assets/logo9.png'
 import logofs from '../../../assets/logo-fs.png'
 
 import './MainNavigation.css';

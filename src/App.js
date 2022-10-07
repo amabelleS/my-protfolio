@@ -3,8 +3,9 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  Redirect,
+  Routes,
+  // Switch,
+  // Redirect,
 } from 'react-router-dom';
 
 import MainNavigation from './shared/components/navigation/MainNavigation';
@@ -20,21 +21,13 @@ function App() {
     <Router>
       <MainNavigation />
       <main>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-          <Route exact path="/blog">
-            <Blog />
-          </Route>
-          <Redirect to="/" />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blog />} />
+          {/* <Redirect to="/" /> */}
+        </Routes>
       </main>
       <Fotter />
     </Router>

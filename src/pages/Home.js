@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import ReactPlayer from 'react-player';
 
 import Button from '../shared/components/FormElements/Button';
-import logo from '../assets/logo6.png'
+import logo from '../assets/logo8.png'
 import logoN from '../assets/logoN.jpeg';
 
 import './Home.css';
@@ -99,7 +99,12 @@ const Home = () => {
           <Button to="/blog">My blog</Button>
         </div>
         <div className="gradient_to-black home_fotter">
-          <h3>on the search for my next challenge 🤑</h3>
+          <h3>
+            on the search for my next challenge
+            <span role="img" aria-label="Smiling Face with Hearts">
+              🥰
+            </span>
+          </h3>
           <img
             alt="my avater"
             src={logo}

@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 import TextTransition, { presets } from 'react-text-transition';
 import Button from '../shared/components/FormElements/Button';
 
-import logo from '../assets/logo6.png';
+import logo from '../assets/logo8.png';
 // import Button from '../shared/components/FormElements/Button';
 
 import './About.css';
@@ -234,11 +234,16 @@ const About = () => {
           </div>
         </div>
         <div className="gradient_from-shade_to-black home_fotter">
-          <h3>on the search for my next challenge 🤑</h3>
+          <h3>
+            on the search for my next challenge
+            <span role="img" aria-label="Smiling Face with Hearts">
+              🥰
+            </span>
+          </h3>
           <img
             alt="my avater"
-            // src={logo}
-            src="https://avatars.githubusercontent.com/u/45571546?v=4"
+            src={logo}
+            // src="https://avatars.githubusercontent.com/u/45571546?v=4"
             style={{
               clipPath: 'circle(50% at 50% 50%)',
               maxWidth: '42vw',
