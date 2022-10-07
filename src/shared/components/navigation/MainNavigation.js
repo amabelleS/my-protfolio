@@ -23,6 +23,11 @@ export const MainNavigation = (props) => {
     setDrawerIsOpen(false);
   };
 
+  let activeStyle = {
+    textShadow: '1px 1px 1px gray',
+    transform: 'skewX(-20deg) scale(1.1)',
+  };
+
   return (
     <React.Fragment>
       {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
@@ -42,15 +47,11 @@ export const MainNavigation = (props) => {
             <span />
             <span />
           </button>
-          <img className='logo' src={logo} style={{marginLeft: '0.7rem'}}/>
+          <img className="logo" src={logo} style={{ marginLeft: '0.7rem' }} />
           <NavLink
             className="main-navigation__title"
             to="/"
-            exact
-            activeStyle={{
-              textShadow: '1px 1px 1px gray',
-              transform: 'skewX(-20deg) scale(1.1)',
-            }}
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             Home
           </NavLink>
