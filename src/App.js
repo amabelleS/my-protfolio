@@ -13,8 +13,10 @@ import MainNavigation from './shared/components/navigation/MainNavigation';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Blog from './pages/Blog';
+import Blog from './pages/blog/Blog';
+import Post from './pages/Post.js';
 import Fotter from './shared/components/UIElements/Fotter';
+import PrevireCard from './pages/blog/components/blog-preview-card/PrevireCard';
 
 function App() {
   return (
@@ -25,7 +27,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog" element={<Blog />}/>
+            <Route path="/blog/:1d" element={<Post />}/>
+            {/* <Route path=":postId" element={<PrevireCard />} /> */}
+          {/* </Route> */}
           {/* <Redirect to="/" /> */}
         </Routes>
       </main>

@@ -1,0 +1,27 @@
+.blog-container {
+  margin: 4rem;
+  color: azure;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+header span {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+header input {
+  height: 2rem;
+  /* background: red; */
+}
+
+header h1 {
+  margin-left: 1rem;
+  color: blueviolet;
+}
