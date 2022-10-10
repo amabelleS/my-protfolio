@@ -32,18 +32,20 @@ So now I needed to do some filtering with React😊
   After that, I asked in the next sync/team meeting, what do we want there? And the answer was: “we want the user to type, and the list to be filtered accordingly”. 
   Well, how do I do that? I started with what I know, the select tag. In react, in order to connect your select to the state, you need to: 
   
-  1. Add a filtered-list state, and a `searchTerm` to the components state (`useState`):
+  1. Add a filtered-list state:
 
   <Code language="javascript">
+
     //Filtered list:
     const [filteredGraduates, setFilteredGraduates] = useState([]);
 
-    //Search Term:
-    const [searchTerm, setSearchTerm] = useState('');
+    //The choosen center option:
+    const [center, setCenter] = useState([...centers][0]);
+
   </Code>
 
 
-  2. Add your filtering functionality inside a useEffect, putting the searchTerm in the dependency array:
+  2. Add your filtering functionality inside a useEffect, putting the center in the dependency array:
 
     <Code language="javascript">
     //Filtereing function, rendering the list everytime the user interacs with the select options:
@@ -103,7 +105,7 @@ So now I needed to do some filtering with React😊
   
 ### Fun Fact About DataLists😊
 
-* *Only certain types of `<input>` support this behavior, and it can also vary from browser to browser. The types of input that support this behavior are:*
+* *Only certain types of `<input>` support this behavior, and it can also vary from browser to browser. <br/> The types of input that support this behavior are:*
 
 ----------
 
@@ -178,11 +180,62 @@ So now I needed to do some filtering with React😊
 
 
 
-## Free text filtering
+## Implementing a Search Term
 That great! But not enough. What if a graduate wants to search for other graduates that work in a specific company, that he wants to apply to?  There is no field representing the current title of the company someone works in. 
 We do have an option for free text, the user can update at any given time up to 100 words about himself. So why not use that? 
 Also, a basic search that seems to me a must here, is a search by name. I wanna look for my besty, I remember her name. We need an open text search, that will go to different fields in the object, and filter out the graduates that pass the criteria. 
-```code```
+
+#### 1. Adding a filtered-list state, and a `searchTerm` to the components state (with `useState`):
+
+<!-- <h3 style="color:blue">Adding a searchTerm to the components state (with useState):</h3> -->
+
+<Code language="javascript">
+  //Filtered list:
+  const [filteredGraduates, setFilteredGraduates] = useState([]);
+
+  //Search Term:
+  const [searchTerm, setSearchTerm] = useState('');
+</Code>
+
+#### 2. Handel...:
+
+<Code language="javascript">
+  //Handel the change:
+    const handleChange = (event) => {
+      setSearchTerm(event.target.value);
+    };
+</Code>
+
+#### 3. :
+
+![Input Type Search](https://res.cloudinary.com/db9i05s6n/image/upload/v1665406881/blog/search-input_xoeu3b.jpg "how it looks:)")
+
+#### 4. `useEffect`...:
+
+<Code language="javascript">
+  //useEffect:
+    useEffect(() => {
+    if (graduates?.length > 0) {
+      const filteredGraduates = graduates?.filter(graduate => {
+        if (
+          graduate.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          graduate.workplace?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          graduate.eworkplace?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          graduate.role?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          graduate.erole?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          graduate.center.includes(searchTerm.toLowerCase())
+        ) {
+          return graduate
+        }
+        return null
+      })
+      setFilteredGraduates(filteredGraduates)
+    }
+  }, [searchTerm])
+</Code>
+
+> Not enouth:( ....
+
 
 ## Combined search
 
