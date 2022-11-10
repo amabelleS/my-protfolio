@@ -4,12 +4,13 @@ import dashbourdUrl from '../../../assets/dashboad.jpg';
 import storagesFront from '../../../assets/storages-front.png';
 import myNotes from '../../../assets/my-notes1.png';
 import crChat from '../../../assets/crChat.png';
-import eCommerce from '../../../assets/e-commerce.png';
+import psagot from '../../../pages/blog/assets/psagot-datalist-filtered.jpeg';
 import ticTacToe from '../../../assets/tic-tac-toe.png';
 import recipes from '../../../assets/angular-recipes.png';
 import network from '../../../assets/angular-network.png';
 import pplFinder from '../../../assets/ppl-finder-home.png';
 import images from '../../../assets/favorite-images-home.png';
+import logo from '../../../assets/logo8.png';
 
 export const projects = [
   {
@@ -119,11 +120,18 @@ export const projects = [
   },
   {
     name: 'up-next',
-    src: eCommerce,
-    subtitle: 'E-commerce application, learning graphql, and more:)',
-    description: `A massive E-commerce app with Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase.
-    In Development`,
+    src: logo,
+    subtitle: 'My new Blog Protfolio',
+    description: `I'm currently developing my new protfolio. It started when I whanted to write a post about the HTML data-list element, witch turned into an article...`,
     url: null,
-    githubUrl: 'https://github.com/amabelleS/e-commerce',
+    githubUrl: 'https://github.com/amabelleS/blog-protfolio',
+  },
+  {
+    name: 'colaboration',
+    src: psagot,
+    subtitle: 'Front-End developer',
+    description: `Collaborating as a team, Developing an app for the graduates and students of Psagot. Stack: React.js (& Redux toolkit) on the client side, node.js & express.js on the server. MySql for DB.`,
+    url: null,
+    // githubUrl: 'https://github.com/amabelleS/blog-protfolio',
   },
 ];

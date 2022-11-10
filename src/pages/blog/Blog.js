@@ -22,7 +22,7 @@ const Blog = () => {
           ></img> */}
           <h1>My Temp Blog</h1>
         </span>
-        <input type="search" />
+        {/* <input type="search" /> */}
       </header>
       <BlogPrevireCard />
     </div>

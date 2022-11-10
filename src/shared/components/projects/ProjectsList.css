@@ -98,7 +98,17 @@
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url('../../../assets/e-commerce.png');
+    url('../../../assets/logoN.jpeg');
+
+  background-size: cover;
+}
+.project--colaboration {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../../pages/blog/assets/datalist.jpeg');
 
   background-size: cover;
 }

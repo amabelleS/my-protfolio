@@ -28,7 +28,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />}/>
-            <Route path="/blog/:1d" element={<Post />}/>
+            <Route path="/blog/:id" element={<Post />}/>
             {/* <Route path=":postId" element={<PrevireCard />} /> */}
           {/* </Route> */}
           {/* <Redirect to="/" /> */}

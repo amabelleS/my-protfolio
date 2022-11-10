@@ -25,16 +25,19 @@ const PrevireCard = () => {
   const {title} = post;
   
   // console.log("🚀 ~ file: PrevireCard.js ~ line 23 ~ PrevireCard ~ content", post)
-
+  
   useEffect(() => {
-    // import('../markdown/article.md')
-    import('../../../../markdown/mastering-javascript.md').then((res) => {
+    import('../../../../markdown/article.md').then((res) => {
       fetch(res.default)
-        .then((response) => response.text())
-        .then((response) => setPost(response))
-        .catch((err) => console.log(err));
+      .then((response) => response.text())
+      .then((response) => {
+        console.log("🚀 ~ file: PrevireCard.js ~ line 35 ~ import ~ response", response)
+        return setPost(response)
+      })
+      .catch((err) => console.log(err));
     });
   }, []);
+  
 
   return (
     <Card sx={{ maxWidth: 345 }}>
@@ -44,19 +47,15 @@ const PrevireCard = () => {
             R
           </Avatar>
         }
-        // action={
-        //   <IconButton aria-label="settings">
-        //     <MoreVertIcon />
-        //   </IconButton>
-        // }
-        title="Filtering with React.js & the HTML Data List Element"
+        title="How to create an autocomplete feature and a Search Term & cross-filter it all with React.js"
         subheader="October 10, 2022"
       />
       <CardMedia component="img" alt="logo" height="140" image={filter} />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-          How do you filter your data with React.js? What HTML element are best
-          for my application? How to do combined search?...
+          How do you filter your data array with React.js? What kind of HTML
+          elements are best for your goal? How can I filter different data
+          fields with cross-filtering...
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {post.title}
@@ -65,23 +64,10 @@ const PrevireCard = () => {
       <CardActions>
         {/* <Button size="small">Share</Button> */}
         <Button size="small">
-          <Link to=":id">Read Article</Link>
+          <Link to=":1">Read Article</Link>
         </Button>
       </CardActions>
     </Card>
-    // <article className="blog-card-wrapper">
-    //   {/* <img src="https://avatars.githubusercontent.com/u/45571546?v=4" /> */}
-    //   <div
-    //     className="photo"
-    //     style={{
-    //       backgroundImage:
-    //         'url(https://avatars.githubusercontent.com/u/45571546?v=4)',
-    //     }}
-    //   ></div>
-    //   <h3>fdsf</h3>
-    //   {/* <Link to={blog.id}>{blog.name}</Link> */}
-    //   <Link to="..">Link</Link>
-    // </article>
   );
 }
 
