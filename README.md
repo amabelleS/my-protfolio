@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# My First Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+I used media-player for the background:) and other cool CSS animation effects.
 
 ## Available Scripts
 
